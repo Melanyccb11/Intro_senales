@@ -1,7 +1,5 @@
 # Introducción a señales Biomédicas
 Bienvenidos al repositorio del **Equipo 2** del curso: "Introducción a señales Biomédicas.
-<<<<<<< HEAD
-_Proyecto_: "Analisis de señales electrocardiográficas (ECG)".
 
 Se buscará desarrollar un sistema en el que se pueda adquirir y procesar señales de un electrocardiograma (ECG).
 
