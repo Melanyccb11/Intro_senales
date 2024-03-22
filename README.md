@@ -1,2 +1,2 @@
 # Intro_senales
-Lab 1
+Bienvenidos a nuestro respositorio
