@@ -18,7 +18,7 @@ _Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
 # Tabla de contenidos
 - [¿Qué es una señal?](#Queesunaseñal)
 - [Materiales](#Materiales)
-- [Metodologia]
+- [Metodologia](#Metodologia)
 - [Temática del proyecto](#Tematicadelproyecto)
 - [Contenido del curso](#Contenidodelcurso)
 - [Participantes](#Participantes)
