@@ -1,7 +1,7 @@
 # Introducción a señales Biomédicas
 Bienvenidos al repositorio del **Equipo 2** del curso: "Introducción a señales Biomédicas.
 _Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
-<image align="center;" width="1200px;" style="border-radius: 90%;" src ="Imágenes/ECG.png">
+<image align="center;" width="1200px;" style="border-radius: 90%;" src ="Imágenes/ECG.jpg">
 ## Integrantes 
  * Catherine Boggio - catherine.boggio@upch.pe
  * Melanie Cama - melanie.cama@upch.pe 
