@@ -46,7 +46,7 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
 
     Contacto: catherine.boggio@upch.pe
 
-   Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica en PUCP-UPCH. Mi área de interes es Ingenieria Clínica.
+   Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica en PUCP-UPCH. Mi área de interes es Ingenieria Clínica y mi objetivo en esa rama es poder ayudar a la mayor cantidad de personas tanto del Perú como en el mundo.
    
 <p align="center">
 <img src="Imágenes/1709409281369.jpg " align="center" width="120" height="150"/>
