@@ -46,9 +46,10 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
 
     Contacto: catherine.boggio@upch.pe
 
-   BLABLABALBLABLABLAB
+   Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica en PUCP-UPCH. Mi área de interes es Ingenieria Clínica.
+   
 <p align="center">
-<img src="LINK A TU IMAGEN " align="center" width="120" height="150"/>
+<img src="Imágenes/1709409281369.jpg " align="center" width="120" height="150"/>
 </p>
 
 2. Melanie Cama (colaboradora)
