@@ -58,7 +58,7 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
 
     Estudiante de 8vo ciclo, perteneciente al 5to superior. Mi objetivo es obtener experiencia en Gestión Clínica y utilizar mis habilidades para aplicar tecnologías médicas que beneficien a poblaciones vulnerables, contribuyendo así a transformar la salud en el Perú.
 <p align="center">
-<img src="link a tu imagen" align="center" width="120" height="150"/>
+<img src="Imágenes/Mel.jpeg.jpg" align="center" width="120" height="150"/>
 </p>
 
 3. Alessandra Valle Montoya (colaboradora)
