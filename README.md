@@ -14,7 +14,8 @@ Bienvenidos al repositorio del **Grupo 2** del curso *Introducción a Señales B
 8. [Docentes del Curso](#Docentes)
 9. [Bibliografía](#Bibliografía)
 
-<a id = "introducción" style></a>.
+<a id = "introducción" style></a>
+<h2 style = "text-align: center;">Introducción</h2>
 <a id = "Contenido"></a>  
 <h2 style = "text-align: center;">Contenido del Curso</h2>
 El curso consta de las siguientes 3 unidades:
