@@ -5,7 +5,7 @@ Bienvenidos al repositorio del **Grupo 2** del curso *Introducción a Señales B
 
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
-1. [Bioseñales](#introducción)
+1. [Introducción](#introducción)
 2. [Contenidos del Curso](#Contenido)
 3. [Materiales](#Materiales)
 4. [Metodología](#Metodología)
