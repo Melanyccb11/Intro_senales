@@ -64,7 +64,7 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
 
     Contacto: alessandra.valle@upch.pe
 
-   :Estudiante de ingeniería biomédica del convenio PUCP-UPCH, Mi enfoque se centra en la Ingeniería Clínica e Biomecánica y Rehabilitacións. Mi objetivo es trabajar en el diseño y desarrollo de dispositivos médicos innovadores, como prótesis, 
+   Estudiante de ingeniería biomédica del convenio PUCP-UPCH, Mi enfoque se centra en la Ingeniería Clínica e Biomecánica y Rehabilitacións. Mi objetivo es trabajar en el diseño y desarrollo de dispositivos médicos innovadores, como prótesis, 
 
 <p align="center">
 <img src="Imágenes/fotoales.jpeg" align="center" width="120" height="150"/>
