@@ -14,9 +14,7 @@ Bienvenidos al repositorio del **Grupo 2** del curso *Introducción a Señales B
 8. [Docentes del Curso](#Docentes)
 9. [Bibliografía](#Bibliografía)
 
-<a id = "introducción" style></a>
-<h2 style = "text-align: center;">¿Qué son las señales biomédicas?</h2>
-Son tipos específicos de señales bioeléctricas, obtenidas por dispositivos que detectan las variaciones del potencial eléctrico generado en los procesos fisiológicos.
+<a id = "introducción" style></a>.
 <a id = "Contenido"></a>  
 <h2 style = "text-align: center;">Contenido del Curso</h2>
 El curso consta de las siguientes 3 unidades:
