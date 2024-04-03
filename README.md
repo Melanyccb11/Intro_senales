@@ -68,7 +68,7 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
    Estudiante de ingeniería biomédica del convenio PUCP-UPCH, Mi enfoque se centra en la Ingeniería Clínica e Biomecánica y Rehabilitacións. Mi objetivo es trabajar en el diseño y desarrollo de dispositivos médicos innovadores, especificamente, prótesis.
 
 <p align="center">
-<img src="Imágenes/fotoales.jpeg" align="center" width="1200" height="150"/>
+<img src="Imágenes/fotoales.jpeg" align="center" width="120" height="150"/>
 </p>
 
 4. Juan José Sandoval (colaborador)
