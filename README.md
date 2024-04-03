@@ -78,7 +78,7 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
     Estudiante de octavo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH. Mi área de interés es Ingeniería de tejidos e Ingeniería Clínica. Mi objetivo es poder trabajar con nanomateriales y en el desarrollo de dispositivos médicos para mejorar la calidad de vida en el país.
 
 <p align="center">
-<img [![yo.jpg](https://i.postimg.cc/rwGW3ZpH/yo.jpg)](https://postimg.cc/K1zRgNB7) align="center" width="120" height="150"/>
+<img scr= "Imágenes/![alt text](yo.jpeg)" align="center" width="120" height="150"/>
 </p>
 
 <a id = "Docentes"></a>
