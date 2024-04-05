@@ -2,29 +2,29 @@
 
 
 Nombre de los Integrantes y código:
-●  Melanie
-●  Alessandra Valle Montoya  71098563
-● Catherine
-● Juan Jose Sandoval Barrantes 74145560
+1. Melanie
+2.Alessandra Valle Montoya  71098563
+3. cat
+4.Juan Jose Sandoval Barrantes 74145560
 
 
 
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
-1. [Plotear señales en Arduino IDE provenientes del generador de señales](#Plotear-señales-en-Arduino-IDE-provenientes-del-generador-de-señales)
-2. [Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio](#Comparar-las-señales-graficadas-del-Arduino-IDE-con-las-gráficas-obtenidas-del-osciloscopio)
-3. [Arduino Cloud](#Arduino-Cloud)
+1. [Plotear señales en Arduino IDE provenientes del generador de señales](#Ploteo)
+2. [Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio](#Comparar)
+3. [Arduino Cloud](#Arduino)
 4. [Docentes](#Docentes)
 5. [Referencias](#Referencias)
 
-<a id = "Plotear señales en Arduino IDE provenientes del generador de señales" style></a>
+<a id = "Ploteo" style></a>
+<h2 style = "text-align: center;">Plotear señales en Arduino IDE provenientes del generador de señales</h2>
+
+
+<a id = "Comparar"></a>  
 <h2 style = "text-align: center;">Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio</h2>
 
-
-<a id = "Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio"></a>  
-<h2 style = "text-align: center;">Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio</h2>
-
-<a id = "Arduino Cloud"></a>
+<a id = "Arduino"></a>
 <h2 style = "text-align: center;">Arduino Cloud</h2>
 
 
