@@ -1,11 +1,11 @@
 <h1 style="text-align: center;">ADQUISICIÓN DE SEÑALES Y GRAFICACIÓN EN ARDUINO - GRUPO 2</h1>
 
 
-##Nombre de los Integrantes y código:
-###1. Melanie
-###2.Alessandra Valle Montoya  71098563
-###3. cat
-###4.Juan Jose Sandoval Barrantes 74145560
+</h3>Nombre de los Integrantes y código:
+</h3>1. Melanie
+</h3>2.Alessandra Valle Montoya  71098563
+</h3>3. cat
+</h3>4.Juan Jose Sandoval Barrantes 74145560
 
 
 
