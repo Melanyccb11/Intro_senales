@@ -36,6 +36,7 @@ Primero creamos la señales, por lo que usamos un osciloscopio digital.Debido a 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/atenuacion.png">
 </p>
+ <h5 align="center">
 Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
 </p>
 </p>
@@ -46,6 +47,7 @@ Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/codig2.png">
 </p>
+ <h5 align="center">
 Figura [3]: Código en Arduino
 </p>
 </p>
@@ -53,6 +55,7 @@ Figura [3]: Código en Arduino
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/señal1.jpeg">
 </p>
+ <h5 align="center">
 Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5*F, sin capacitor
 </p>
 </p>
@@ -60,6 +63,7 @@ Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/señal%202Hz%20sin.jpeg">
 </p>
+ <h5 align="center">
 Figura [5]: Señal 2 Sinusoidal con amplitud 2.5V, frecuencia de 2Hz y Fmuestreo=10*F, sin capacitor
 </p>
 </p>
@@ -67,6 +71,7 @@ Figura [5]: Señal 2 Sinusoidal con amplitud 2.5V, frecuencia de 2Hz y Fmuestreo
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/5HzSin.jpg">
 </p>
+ <h5 align="center">
 Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo=5*F, sin capacitor
 </p>
 </p>
@@ -74,6 +79,7 @@ Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/Con2Hz.jpg">
 </p>
+ <h5 align="center">
 Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5*F, CON capacitor
 </p>
 </p>
@@ -81,6 +87,7 @@ Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/Con5hz.jpg">
 </p>
+ <h5 align="center">
 Figura [8]: Señal 5 Sinusoidal con amplitud 2V, frecuencia de 5Hz y Fmuestreo=5*F, CON capacitor
 </p>
 </p>
@@ -92,6 +99,7 @@ Cuando hablamos de un circuito donde se introduce un capacitor, como en un circu
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/rc.jpeg">
 </p>
+ <h5 align="center">
 Figura [9]: Circuito RC 
 </p>
 
