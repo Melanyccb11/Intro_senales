@@ -122,7 +122,15 @@ Figura [9]: Circuito RC
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/compara.png">
 </p>
-
+1. Generación y Atenuación de la Señal
+En la primera fase del experimento, se generó una señal de 2 Hz con una amplitud de 2.5 V utilizando un generador de señales. No obstante, al medirla en el osciloscopio, se observó que la amplitud era significativamente menor, específicamente 0.25 mV. Esta discrepancia sugirió una atenuación de la señal en un factor de 10x, lo cual probablemente se debió a un problema con el cable utilizado para conectar el generador de señales al osciloscopio.
+Esta atenuación puede ser causada por varios factores, incluyendo la calidad del cable, su longitud, o incluso conexiones imperfectas, los cuales pueden reducir la amplitud de la señal transmitida de manera significativa.
+2. Ajuste de la Señal
+Para compensar la atenuación observada, se ajustó la amplitud de la señal generada a un rango de 0 a 10V. Este ajuste fue crucial para obtener una señal con una amplitud de 1V visible en el osciloscopio. Aunque no se capturó una imagen de la señal ajustada debido a la falta de tiempo, este paso fue fundamental para continuar con el experimento bajo las condiciones deseadas.
+3. Digitalización de la Señal en Arduino
+Posteriormente, al introducir esta señal ajustada en el puerto A0 de un Arduino y plotear la señal utilizando el Arduino IDE, se observó que la señal se representaba en una escala de 0 a 1V. Este fenómeno se debe a la resolución del convertidor analógico-digital (ADC) del Arduino, que en este caso es de 12 bits.
+La resolución del ADC significa que puede diferenciar entre 2^(12) =4096 valores distintos. Al alimentar una señal de 0 a 1V al Arduino, el ADC asigna estos 4096 valores posibles a lo largo de este rango de voltaje, permitiendo así la digitalización precisa de la señal. Este proceso es crucial para la representación digital de señales analógicas, permitiendo su análisis y procesamiento posterior en el dominio digital. 
+Sin embargo, podemos observar que ocurre una saturación de la señal alrededor del valor 1000, esto puede darse por diferentes causas una de ellas es la tasa de muestreo con la cual se obtienen los datos de la señal, por ello al incrementarla en las siguientes pruebas a diferentes frecuencias se observa mejor.
 
 Observaciones:
 - Se ha logrado obtener gráficas a partir de la configuración del generador de señal (sinusoidal) en donde se ha ido variando la frecuencia entre 1-2Hz. 
