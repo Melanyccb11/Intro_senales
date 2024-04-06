@@ -2,7 +2,7 @@
 
 
 </h3>Nombre de los Integrantes y código:
-</h3>1. Melanie
+</h3>1. Melany
 </h3>2.Alessandra Valle Montoya  71098563
 </h3>3. cat
 </h3>4.Juan Jose Sandoval Barrantes 74145560
