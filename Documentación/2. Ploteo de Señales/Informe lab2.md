@@ -38,6 +38,7 @@ Primero creamos la señales, por lo que usamos un osciloscopio digital.Debido a 
 </p>
  <h5 align="center">
 Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
+ </h5>
 </p>
 </p>
 
@@ -49,6 +50,7 @@ Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
 </p>
  <h5 align="center">
 Figura [3]: Código en Arduino
+     </h5>
 </p>
 </p>
 
@@ -57,6 +59,7 @@ Figura [3]: Código en Arduino
 </p>
  <h5 align="center">
 Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5*F, sin capacitor
+     </h5>
 </p>
 </p>
 
@@ -65,6 +68,7 @@ Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5
 </p>
  <h5 align="center">
 Figura [5]: Señal 2 Sinusoidal con amplitud 2.5V, frecuencia de 2Hz y Fmuestreo=10*F, sin capacitor
+     </h5>
 </p>
 </p>
 
@@ -73,6 +77,7 @@ Figura [5]: Señal 2 Sinusoidal con amplitud 2.5V, frecuencia de 2Hz y Fmuestreo
 </p>
  <h5 align="center">
 Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo=5*F, sin capacitor
+     </h5>
 </p>
 </p>
 
@@ -81,6 +86,7 @@ Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo
 </p>
  <h5 align="center">
 Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5*F, CON capacitor
+     </h5>
 </p>
 </p>
 
@@ -89,6 +95,7 @@ Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5
 </p>
  <h5 align="center">
 Figura [8]: Señal 5 Sinusoidal con amplitud 2V, frecuencia de 5Hz y Fmuestreo=5*F, CON capacitor
+     </h5>
 </p>
 </p>
 
