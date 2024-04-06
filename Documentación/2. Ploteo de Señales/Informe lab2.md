@@ -108,7 +108,7 @@ Figura [8]: Señal 5 Sinusoidal con amplitud 2V, frecuencia de 5Hz y Fmuestreo=5
 
 La presencia del capacitor en el circuito puede tener un impacto tanto en la reducción del ruido no deseado como en la disminución de la amplitud de la señal deseada. 
 
-Cuando hablamos de un circuito donde se introduce un capacitor, como en un circuito RC (Resistencia-Capacitor), la presencia de este componente puede afectar la señal eléctrica. Este circuito atenúa o reduce el ruido no deseado que pueda estar presente en la señal, es decir, funciona como un filtro de componentes no deseados. Sin embargo, el capacitor también puede afectar la señal útil, dependiendo de la frecuencia de la señal y del valor del capacitor, este componente puede influir en cómo la señal se carga y descarga a través del circuito. En algunos casos, esto puede provocar una disminución en la amplitud de la señal deseada.[1]
+Cuando hablamos de un circuito donde se introduce un capacitor, como en un circuito RC (Resistencia-Capacitor), la presencia de este componente puede afectar la señal eléctrica. Este circuito atenúa o reduce el ruido no deseado que pueda estar presente en la señal, es decir, funciona como un filtro de componentes no deseados. Sin embargo, el capacitor también puede afectar la señal útil, dependiendo de la frecuencia de la señal y del valor del capacitor, este componente puede influir en cómo la señal se carga y descarga a través del circuito. En algunos casos, esto puede provocar una disminución en la amplitud de la señal deseada [2].
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/rc.jpeg">
@@ -142,5 +142,6 @@ Se ha logrado obtener gráficas a partir de la configuración del generador de s
 
 <a id = "Referencias"></a>
 <h2 style = "text-align: center;">Referencias</h2>
-[1]  A. S. C. Pérez, G. Á. Rodríguez, and R. P. Gómez, “DISEÑO DE UN FILTRO DIGITAL PASA BAJAS DE PRIMER Y SEGUNDO ORDEN A PARTIR DE CIRCUITO RC,” Pistas Educativas, vol. 38, no. 120, 2018. 
+[1]«Arduino Nano 33 IoT — Arduino Online Shop». Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://store-usa.arduino.cc/products/arduino-nano-33-iot?selectedStore=us
+[2]  A. S. C. Pérez, G. Á. Rodríguez, and R. P. Gómez, “DISEÑO DE UN FILTRO DIGITAL PASA BAJAS DE PRIMER Y SEGUNDO ORDEN A PARTIR DE CIRCUITO RC,” Pistas Educativas, vol. 38, no. 120, 2018. 
 
