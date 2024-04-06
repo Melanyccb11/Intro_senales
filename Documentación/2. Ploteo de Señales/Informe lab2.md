@@ -71,7 +71,7 @@ La presencia del capacitor en el circuito puede tener un impacto tanto en la red
 Cuando hablamos de un circuito donde se introduce un capacitor, como en un circuito RC (Resistencia-Capacitor), la presencia de este componente puede afectar la señal eléctrica. Este circuito atenúa o reduce el ruido no deseado que pueda estar presente en la señal, es decir, funciona como un filtro de componentes no deseados. Sin embargo, el capacitor también puede afectar la señal útil, dependiendo de la frecuencia de la señal y del valor del capacitor, este componente puede influir en cómo la señal se carga y descarga a través del circuito. En algunos casos, esto puede provocar una disminución en la amplitud de la señal deseada.[1]
 
 <p align="center">
-<img src="Documentación/2. Ploteo de Señales/Imagenes Lab2/rc.jpeg" align="center" width="120" height="150"/>
+<img src="Documentación/2.Ploteo de Señales/Imagenes Lab2/rc.jpeg" align="center" width="120" height="150"/>
 </p>
 Figura [9]: Circuito RC 
 
