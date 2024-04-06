@@ -79,6 +79,10 @@ Figura [9]: Circuito RC
 <a id = "Comparar"></a>  
 <h2 style = "text-align: center;">Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio</h2>
 
+Observaciones:
+Se ha logrado obtener gráficas a partir de la configuración del generador de señal (sinusoidal) en donde se ha ido variando la frecuencia entre 1-2Hz.
+
+
 <a id = "Arduino"></a>
 <h2 style = "text-align: center;">Arduino Cloud</h2>
 
@@ -93,3 +97,5 @@ Figura [9]: Circuito RC
 
 <a id = "Referencias"></a>
 <h2 style = "text-align: center;">Referencias</h2>
+[1]  A. S. C. Pérez, G. Á. Rodríguez, and R. P. Gómez, “DISEÑO DE UN FILTRO DIGITAL PASA BAJAS DE PRIMER Y SEGUNDO ORDEN A PARTIR DE CIRCUITO RC,” Pistas Educativas, vol. 38, no. 120, 2018. 
+
