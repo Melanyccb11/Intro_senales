@@ -47,22 +47,22 @@ Figura [3]: Código en Arduino
 Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5*F, sin capacitor
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/señal%202Hz%20sin.jpeg">
 </p>
 Figura [5]: Señal 2 Sinusoidal con amplitud 2.5V, frecuencia de 2Hz y Fmuestreo=10*F, sin capacitor
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/5HzSin.jpg">
 </p>
 Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo=5*F, sin capacitor
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/Con2Hz.jpg">
 </p>
 Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5*F, CON capacitor
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/5HzSin.jpg">
 </p>
 Figura [8]: Señal 5 Sinusoidal con amplitud 2V, frecuencia de 5Hz y Fmuestreo=5*F, CON capacitor
 
@@ -71,7 +71,7 @@ La presencia del capacitor en el circuito puede tener un impacto tanto en la red
 Cuando hablamos de un circuito donde se introduce un capacitor, como en un circuito RC (Resistencia-Capacitor), la presencia de este componente puede afectar la señal eléctrica. Este circuito atenúa o reduce el ruido no deseado que pueda estar presente en la señal, es decir, funciona como un filtro de componentes no deseados. Sin embargo, el capacitor también puede afectar la señal útil, dependiendo de la frecuencia de la señal y del valor del capacitor, este componente puede influir en cómo la señal se carga y descarga a través del circuito. En algunos casos, esto puede provocar una disminución en la amplitud de la señal deseada.[1]
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/rc.jpeg">
 </p>
 Figura [9]: Circuito RC 
 
@@ -79,7 +79,7 @@ Figura [9]: Circuito RC
 <a id = "Comparar"></a>  
 <h2 style = "text-align: center;">Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio</h2>
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/compara.png">
 </p>
 
 
