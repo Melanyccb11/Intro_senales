@@ -23,7 +23,7 @@
 En el proceso para plotear una señal en Arduino, se utilizó el puerto analógico del Arduino nano 33 IoT, un generador de señales y se armó un pequeño circuito en un protoboard con un capacitor en tierra y el pin como se puede observar en la figura 1.
 
 <p align="center">
-  <img width="660" height="400" src="[https://github.com/miguel-isidro05/Repositorio_FUNBIO/blob/main/Im%C3%A1genes/1.jpg](https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png)">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
 </p>
 
 Primero creamos la señales, por lo que usamos un osciloscopio digital.Debido a que el cable de osciloscopio BNC trabaja con una atenuación x10, nos percatamos que el osciloscopio, la señal puesta en el generador de señales será reducía 10 veces.
