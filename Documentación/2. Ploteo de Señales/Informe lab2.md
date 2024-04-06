@@ -25,7 +25,9 @@ En el proceso para plotear una señal en Arduino, se utilizó el puerto analógi
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
 </p>
-Figura [1]: Circuito armado
+<h5 align="center">
+  Figura [1]: Circuito armado
+</h5>
 </p>
 </p>
 
