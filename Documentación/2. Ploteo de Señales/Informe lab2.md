@@ -149,7 +149,7 @@ Observaciones:
 <h2 style = "text-align: center;">Arduino Cloud</h2>
 
 <p align="center">
-  <img width="660" height="400" src="Imágenes/cloud1.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/cloud1.png">
 </p>
 <p align="center">
   <img width="660" height="400" src="Imágenes/cloud2.png">
