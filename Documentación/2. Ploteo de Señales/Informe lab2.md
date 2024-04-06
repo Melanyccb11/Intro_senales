@@ -122,6 +122,8 @@ Figura [9]: Circuito RC
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/compara.png">
 </p>
+
+
 1. Generación y Atenuación de la Señal
 En la primera fase del experimento, se generó una señal de 2 Hz con una amplitud de 2.5 V utilizando un generador de señales. No obstante, al medirla en el osciloscopio, se observó que la amplitud era significativamente menor, específicamente 0.25 mV. Esta discrepancia sugirió una atenuación de la señal en un factor de 10x, lo cual probablemente se debió a un problema con el cable utilizado para conectar el generador de señales al osciloscopio.
 Esta atenuación puede ser causada por varios factores, incluyendo la calidad del cable, su longitud, o incluso conexiones imperfectas, los cuales pueden reducir la amplitud de la señal transmitida de manera significativa.
