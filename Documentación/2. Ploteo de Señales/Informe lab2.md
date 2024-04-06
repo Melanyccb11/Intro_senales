@@ -1,11 +1,12 @@
-<h1 style="text-align: center;">ADQUISICIÓN DE SEÑALES Y GRAFICACIÓN EN ARDUINO - GRUPO 2</h1>
+<h1 style="text-align: center;">ADQUISICIÓN DE SEÑALES Y GRÁFICA EN ARDUINO - GRUPO 2</h1>
 
 
 </h3>Nombre de los Integrantes y código:
-</h3>1.Melany Cama Bahamonde 72128361
-</h3>2.Alessandra Valle Montoya  71098563
-</h3>3.Catherine Boggio Vidal
-</h3>4.Juan Jose Sandoval Barrantes 74145560
+
+1. Melany Cama Bahamonde 72128361
+2. Alessandra Valle Montoya  71098563
+3. Catherine Boggio Vidal 71329106
+4. Juan Jose Sandoval Barrantes 74145560
 
 
 
