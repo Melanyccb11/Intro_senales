@@ -58,6 +58,7 @@ Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo
 
 <p align="center">
 <img src="Documentación/2. Ploteo de Señales/Imagenes Lab2/5HzSin.jpg" align="center" width="120" height="150"/>
+</p>
 Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5*F, CON capacitor
 
 <p align="center">
