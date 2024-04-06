@@ -25,13 +25,15 @@ En el proceso para plotear una señal en Arduino, se utilizó el puerto analógi
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
 </p>
-
+Figura [1]: Circuito armado
+</p>
 Primero creamos la señales, por lo que usamos un osciloscopio digital.Debido a que el cable de osciloscopio BNC trabaja con una atenuación x10, nos percatamos que el osciloscopio, la señal puesta en el generador de señales será reducía 10 veces.
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/atenuacion.png">
 </p>
 Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
+</p>
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/codig1.png">
@@ -40,31 +42,36 @@ Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/codig2.png">
 </p>
 Figura [3]: Código en Arduino
-
+</p>
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/señal1.jpeg">
 </p>
 Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5*F, sin capacitor
+</p>
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/señal%202Hz%20sin.jpeg">
 </p>
 Figura [5]: Señal 2 Sinusoidal con amplitud 2.5V, frecuencia de 2Hz y Fmuestreo=10*F, sin capacitor
+</p>
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/5HzSin.jpg">
 </p>
 Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo=5*F, sin capacitor
+</p>
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/Con2Hz.jpg">
 </p>
 Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5*F, CON capacitor
+</p>
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/Con5hz.jpg">
 </p>
 Figura [8]: Señal 5 Sinusoidal con amplitud 2V, frecuencia de 5Hz y Fmuestreo=5*F, CON capacitor
+</p>
 
 La presencia del capacitor en el circuito puede tener un impacto tanto en la reducción del ruido no deseado como en la disminución de la amplitud de la señal deseada. 
 
@@ -74,7 +81,7 @@ Cuando hablamos de un circuito donde se introduce un capacitor, como en un circu
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/rc.jpeg">
 </p>
 Figura [9]: Circuito RC 
-
+</p>
 
 <a id = "Comparar"></a>  
 <h2 style = "text-align: center;">Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio</h2>
