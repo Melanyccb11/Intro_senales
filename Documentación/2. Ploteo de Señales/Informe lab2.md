@@ -20,7 +20,7 @@
 <a id = "Ploteo" style></a>
 <h2 style = "text-align: center;">Plotear señales en Arduino IDE provenientes del generador de señales</h2>
 
-En el proceso para plotear una señal en Arduino, se utilizó el puerto analógico del Arduino nano 33 IoT, un generador de señales y se armó un pequeño circuito en un protoboard con un capacitor en tierra y el pin como se puede observar en la figura 1.
+En el proceso para plotear una señal en Arduino, se utilizó el puerto analógico del Arduino nano 33 IoT, un generador de señales y se armó un pequeño circuito en un protoboard con un capacitor de 470uF en tierra y el pin como se puede observar en la figura 1.
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
@@ -31,7 +31,7 @@ En el proceso para plotear una señal en Arduino, se utilizó el puerto analógi
 </p>
 </p>
 
-En primer lugar, creamos las señales y verificamos que el voltaje generado por la onda no excediera los 3.3V, con el fin de proteger el Arduino Nano 33 IoT de posibles daños. Este proceso lo llevamos a cabo utilizando un osciloscopio digital. Sin embargo, es importante tener en cuenta que el cable de conexión al osciloscopio (BNC) que hemos utilizado opera con una atenuación de x10 [2].
+En primer lugar, creamos las señales y verificamos que el voltaje generado por la onda no excediera los 3.3V, con el fin de proteger el Arduino Nano 33 IoT de posibles daños. Este proceso lo llevamos a cabo utilizando un osciloscopio digital. Sin embargo, es importante tener en cuenta que el cable de conexión al osciloscopio (BNC) que hemos utilizado opera con una atenuación de x10 [1].
 
 Al observar la señal generada en el osciloscopio, nos dimos cuenta de que esta estaba siendo reducida diez veces debido a la atenuación del cable, como se muestra en la Figura 2. Esto nos permitió asegurarnos de que el voltaje aplicado al Arduino se mantuviera dentro de los límites seguros, evitando así cualquier posible daño al dispositivo.
 
@@ -44,6 +44,10 @@ Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
  </h5>
 </p>
 </p>
+Posteriormente, procedimos a desarrollar el código necesario para la lectura de la señal en Arduino. Antes de esto, es crucial descargar la librería SANDBoards para garantizar el funcionamiento adecuado del programa.
+
+El objetivo principal del código es variar la frecuencia de la señal, así como la frecuencia de muestreo y el voltaje. Estos parámetros son esenciales para nuestra investigación y se pueden observar claramente en las Figuras 3 a 8.
+Se debe tener en cuenta que las frecuencias que se toman son bajas debido a las limitaciones de velocidad del reloj, capacidad de procesamiento y diseño de la placa [1].
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/codig1.png">
