@@ -125,7 +125,10 @@ Figura [9]: Circuito RC
 
 
 Observaciones:
-Se ha logrado obtener gráficas a partir de la configuración del generador de señal (sinusoidal) en donde se ha ido variando la frecuencia entre 1-2Hz.
+- Se ha logrado obtener gráficas a partir de la configuración del generador de señal (sinusoidal) en donde se ha ido variando la frecuencia entre 1-2Hz. 
+- Se puede observar que, en la primera gráfica del arduino bajo una frecuencia de 2Hz se ve una señal recortada, esto debido a que la señal parece recortada porque la tensión de salida del generador de funciones excede el rango máximo de entrada del convertidor analógico a digital (ADC) de tu Arduino, que es de 5V. Al superar este límite, las partes de la señal que están por encima de 5V no se leen correctamente, lo que resulta en una señal recortada en la gráfica.
+- Por otro lado, en la siguiente imagen la gráfica de Arduino ahora muestra una señal definida porque el voltaje de la señal del generador está dentro del rango que el Arduino puede leer sin recortar, y la configuración del ADC está correctamente ajustada para capturar toda la amplitud de la señal.
+
 
 
 <a id = "Arduino"></a>
