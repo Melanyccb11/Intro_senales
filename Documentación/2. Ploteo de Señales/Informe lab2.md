@@ -31,7 +31,10 @@ En el proceso para plotear una señal en Arduino, se utilizó el puerto analógi
 </p>
 </p>
 
-Primero creamos la señales, por lo que usamos un osciloscopio digital.Debido a que el cable de osciloscopio BNC trabaja con una atenuación x10, nos percatamos que el osciloscopio, la señal puesta en el generador de señales será reducía 10 veces.
+En primer lugar, creamos las señales y verificamos que el voltaje generado por la onda no excediera los 3.3V, con el fin de proteger el Arduino Nano 33 IoT de posibles daños. Este proceso lo llevamos a cabo utilizando un osciloscopio digital. Sin embargo, es importante tener en cuenta que el cable de conexión al osciloscopio (BNC) que hemos utilizado opera con una atenuación de x10 [2].
+
+Al observar la señal generada en el osciloscopio, nos dimos cuenta de que esta estaba siendo reducida diez veces debido a la atenuación del cable, como se muestra en la Figura 2. Esto nos permitió asegurarnos de que el voltaje aplicado al Arduino se mantuviera dentro de los límites seguros, evitando así cualquier posible daño al dispositivo.
+
 
 <p align="center">
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/atenuacion.png">
