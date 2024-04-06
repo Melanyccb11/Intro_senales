@@ -78,6 +78,11 @@ Figura [9]: Circuito RC
 
 <a id = "Comparar"></a>  
 <h2 style = "text-align: center;">Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio</h2>
+<p align="center">
+<img src="Imágenes/compara.png" align="center" width="120" height="150"/>
+</p>
+
+Imágenes/compara.png
 
 Observaciones:
 Se ha logrado obtener gráficas a partir de la configuración del generador de señal (sinusoidal) en donde se ha ido variando la frecuencia entre 1-2Hz.
