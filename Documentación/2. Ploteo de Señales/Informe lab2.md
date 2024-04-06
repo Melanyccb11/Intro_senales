@@ -62,7 +62,7 @@ Figura [6]: Señal 3 Sinusoidal con amplitud 2.5V, frecuencia de 5Hz y Fmuestreo
 Figura [7]: Señal 4 Sinusoidal con amplitud 2V, frecuencia de 2Hz y Fmuestreo=5*F, CON capacitor
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/5HzSin.jpg">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/Con5hz.jpg">
 </p>
 Figura [8]: Señal 5 Sinusoidal con amplitud 2V, frecuencia de 5Hz y Fmuestreo=5*F, CON capacitor
 
