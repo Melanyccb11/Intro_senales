@@ -143,5 +143,6 @@ Se ha logrado obtener gráficas a partir de la configuración del generador de s
 <a id = "Referencias"></a>
 <h2 style = "text-align: center;">Referencias</h2>
 [1]«Arduino Nano 33 IoT — Arduino Online Shop». Accedido: 5 de abril de 2024. [En línea]. Disponible en: https://store-usa.arduino.cc/products/arduino-nano-33-iot?selectedStore=us
+
 [2]  A. S. C. Pérez, G. Á. Rodríguez, and R. P. Gómez, “DISEÑO DE UN FILTRO DIGITAL PASA BAJAS DE PRIMER Y SEGUNDO ORDEN A PARTIR DE CIRCUITO RC,” Pistas Educativas, vol. 38, no. 120, 2018. 
 
