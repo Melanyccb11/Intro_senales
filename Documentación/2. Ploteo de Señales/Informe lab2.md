@@ -148,6 +148,16 @@ Observaciones:
 <a id = "Arduino"></a>
 <h2 style = "text-align: center;">Arduino Cloud</h2>
 
+<p align="center">
+  <img width="660" height="400" src="Imágenes/cloud1.png">
+</p>
+<p align="center">
+  <img width="660" height="400" src="Imágenes/cloud2.png">
+</p>
+ <h5 align="center">
+
+- Lo que queríamos lograr es incluir el Arduino Cloud en el código en donde permita monitorear y almacenar las lecturas de los sensores en línea, acceder a los datos desde cualquier lugar, y habilitar acciones automáticas basadas en esos datos. Sin embargo, no logramos implementarlo.
+
 
 <a id = "Docentes"></a>
 <h2 style = "text-align: center;">Docentes del Curso</h2>
