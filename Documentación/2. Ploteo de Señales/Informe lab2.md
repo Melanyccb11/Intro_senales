@@ -152,7 +152,7 @@ Observaciones:
   <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/cloud1.png">
 </p>
 <p align="center">
-  <img width="660" height="400" src="Imágenes/cloud2.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/cloud2.png">
 </p>
  <h5 align="center">
 
