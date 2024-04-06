@@ -29,20 +29,20 @@ En el proceso para plotear una señal en Arduino, se utilizó el puerto analógi
 Primero creamos la señales, por lo que usamos un osciloscopio digital.Debido a que el cable de osciloscopio BNC trabaja con una atenuación x10, nos percatamos que el osciloscopio, la señal puesta en el generador de señales será reducía 10 veces.
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/atenuacion.png">
 </p>
 Figura [2]: Demostración de la atenuación x10 del cable de osciloscopio BNC
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/codig1.png">
 </p>
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/circuito.png">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/codig2.png">
 </p>
 Figura [3]: Código en Arduino
 
 <p align="center">
-  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/se%C3%B1al1.jpeg">
+  <img width="660" height="400" src="https://github.com/Melanyccb11/Intro_senales/blob/main/Im%C3%A1genes/señal1.jpeg">
 </p>
 Figura [4]: Señal 1 Sinusoidal con amplitud 1V, frecuencia de 2Hz y Fmuestreo=5*F, sin capacitor
 
