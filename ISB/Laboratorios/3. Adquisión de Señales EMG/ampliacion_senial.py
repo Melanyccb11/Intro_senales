@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Nombre de tu archivo TXT
-archivo_txt = "uwu.txt"
+archivo_txt = "text_EMG.txt"
 
 # Cargar los datos desde el archivo TXT
 datos_emg = np.loadtxt(archivo_txt)
