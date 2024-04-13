@@ -11,7 +11,7 @@ import pandas as pd
 import seaborn as sns
 import re
 
-f = open("uwu.txt","r")
+f = open("text_EMG.txt.txt","r")
 raw_data = f.readline()  # con f.read() leemos todo el contenido
 f.close()
 
@@ -26,7 +26,7 @@ Fs = 1000
 Ts=1/Fs
 
 print(f" Fs={Fs} hz\n Ts={Ts} s")
-array = np.genfromtxt("./uwu.txt", delimiter="	",skip_header = 2)
+array = np.genfromtxt("./text_EMG.txt", delimiter="	",skip_header = 2)
 array
 
 M = array[:,5].shape[0]
