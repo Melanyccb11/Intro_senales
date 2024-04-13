@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Asegúrate de cambiar esta ruta por la ruta real donde se encuentra tu archivo.
-file_path = 'nuestraseñal.txt'
+file_path = 'text_EMG.txt'
 
 try:
     # Omitir las líneas del encabezado y cargar los datos
