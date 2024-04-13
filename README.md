@@ -5,17 +5,13 @@ Bienvenidos al repositorio del **Grupo 2** del curso *Introducción a Señales B
 
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
-1. [Introducción](#introducción)
-2. [Contenidos del Curso](#Contenido)
-3. [Materiales](#Materiales)
-4. [Metodología](#Metodología)
-5. [Tema del Proyecto](#Tema)
-7. [Integrantes del Grupo](#Integrantes)
-8. [Docentes del Curso](#Docentes)
-9. [Bibliografía](#Bibliografía)
+1. [Contenidos del Curso](#Contenido)
+2. [Materiales](#Materiales)
+3. [Tema del Proyecto](#Tema)
+4. [Integrantes del Grupo](#Integrantes)
+5. [Docentes del Curso](#Docentes)
 
-<a id = "introducción" style></a>
-<h2 style = "text-align: center;">Introducción</h2>
+
 <a id = "Contenido"></a>  
 <h2 style = "text-align: center;">Contenido del Curso</h2>
 El curso consta de las siguientes 3 unidades:
@@ -30,9 +26,6 @@ El curso consta de las siguientes 3 unidades:
 <a id = "Materiales"></a>
 <h2 style = "text-align: center;">Materiales</h2>
 
-
-<a id = "Metodología"></a>
-<h2 style = "text-align: center;">Metodología</h2>
 
 <a id = "Tema"></a>
 <h2 style = "text-align: center;">Tema del Proyecto</h2>
@@ -88,5 +81,4 @@ Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
 3. Venancio Huerta, Julissa - julissa.venancio@upch.pe
 4. Cáceres del Aguila, Jose Alonso - jose.caceres.d@upch.pe
 
-<a id = "Bibliografia"></a>
-<h2 style = "text-align: center;">Bibliografía</h2>
+
