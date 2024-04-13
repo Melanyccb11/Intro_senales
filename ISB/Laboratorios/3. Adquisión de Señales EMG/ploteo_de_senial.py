@@ -29,12 +29,12 @@ print(f" Fs={Fs} hz\n Ts={Ts} s")
 array = np.genfromtxt("./uwu.txt", delimiter="	",skip_header = 2)
 array
 
-M = array[:,-2].shape[0]
+M = array[:,5].shape[0]
 
 n = np.arange(0,M)
 t = n*Ts
 
-plt.plot(t, array[:,6], label="señal")      # graficamos la señal
+plt.plot(t, array[:,5], label="señal")      # graficamos la señal
 plt.grid(linestyle=":")
 plt.xlabel("Tiempo (s)")
 plt.ylabel("Amplitud")
@@ -44,7 +44,7 @@ plt.show()
 
 N = 2**10                                     # 10 bits, 0-1023
 
-signal1 = array[:,6]
+signal1 = array[:,5]
 
 signal_fft = np.fft.fft(signal1, N)           # fft magtinud
 signal_fft = np.round(np.abs(signal_fft),3)[0:N//2] # nos quedamos con los componente de la derecha de la FFT
