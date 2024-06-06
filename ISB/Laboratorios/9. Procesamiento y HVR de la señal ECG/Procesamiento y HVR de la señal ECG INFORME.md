@@ -129,7 +129,7 @@ Se carga la señal ECG desde un archivo o una fuente de datos. Esto se realiza g
 
 Para mejorar la calidad de la señal ECG y eliminar componentes de baja frecuencia (tendencias), se aplica un filtro pasa alto. Este filtro es implementado utilizando una función que aplica un filtro digital de primer orden.
 
-Para resaltar los picos R, se utiliza la Transformada Discreta de Wavelet (DWT) seguida de la cuadratura de la señal. Esto ayuda a incrementar el rango dinámico de los picos dominantes en la señal, facilitando su detección
+Con el fin de resaltar los picos R, se utiliza la Transformada Discreta de Wavelet (DWT) seguida de la cuadratura de la señal. Esto ayuda a incrementar el rango dinámico de los picos dominantes en la señal, facilitando su detección
 
 Se implementa un algoritmo para detectar los picos R en la señal procesada. Esto se hace utilizando la función `find_peaks` de scipy, que permite identificar las posiciones de los picos en la señal.
 ```python
@@ -137,12 +137,21 @@ peaks, _ = find_peaks(squared_ecg, distance=150)
 r_peaks = np.array([i for i in peaks if squared_ecg[i] > umbral])
 ```
 
-A partir de los picos R detectados, se calculan los intervalos RR, que son la diferencia entre los tiempos de ocurrencia de picos sucesivos. Estos intervalos son cruciales para el análisis de la variabilidad de la frecuencia cardíaca:
+Para obtener una señal HRV equidistante, se realiza una interpolación cúbica. Esto permite convertir las ubicaciones de tiempo de los intervalos RR, que no están equidistantemente muestreadas, en una señal HRV equidistante:
 ```python
-rr_intervals = np.diff(r_peaks) / fs  # fs es la frecuencia de muestreo
+time_rr = np.cumsum(rr_intervals) / fs
+cs = CubicSpline(time_rr, rr_intervals)
+time_hrv = np.arange(time_rr[0], time_rr[-1], 1/fs)
+hrv_signal = cs(time_hrv)
 ```
 
-Para obtener una señal HRV equidistante, se realiza una interpolación cúbica. Esto permite convertir las ubicaciones de tiempo de los intervalos RR, que no están equidistantemente muestreadas, en una señal HRV equidistante.
+Se calcula la densidad espectral de potencia (PSD) de la señal HRV usando el método de Welch. Este método es útil para analizar las componentes de frecuencia de la señal HRV:
+```python
+frequencies, psd = welch(hrv_signal, fs, nperseg=256)
+```
+
+Finalmente, se grafican tanto la señal ECG original y procesada, como la señal HRV y su PSD. Estas visualizaciones son esenciales para entender la calidad de las señales y los resultados del procesamiento
+
 </p>
 
 
