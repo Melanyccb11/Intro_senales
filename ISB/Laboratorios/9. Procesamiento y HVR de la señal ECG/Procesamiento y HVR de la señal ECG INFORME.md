@@ -123,7 +123,27 @@ filter with following transfer function este esta en el mini paper pero ampliar 
 <h2 style = "text-align: center;">Ploteo de la señal en Python</h2>
 </p>
 
-hablar de lo que se hare en el archi de python</p>
+El código se realizó en base al artículo “A Robust Algorithm for Derivation of Heart Rate Variability Spectra from ECG and PPG Signals” de Ajay Verma [1]. Este comienza importando las librerías necesarias para el procesamiento de señales y la visualización de datos. Estas incluyen librerías como numpy para el manejo de matrices y cálculos numéricos, pandas para la manipulación de datos, matplotlib para la creación de gráficos, y scipy para el procesamiento de señales.
+
+Se carga la señal ECG desde un archivo o una fuente de datos. Esto se realiza generalmente con funciones de pandas o numpy, que permiten leer datos de archivos CSV u otros formatos y almacenarlos en estructuras de datos fáciles de manipular:
+
+Para mejorar la calidad de la señal ECG y eliminar componentes de baja frecuencia (tendencias), se aplica un filtro pasa alto. Este filtro es implementado utilizando una función que aplica un filtro digital de primer orden.
+
+Para resaltar los picos R, se utiliza la Transformada Discreta de Wavelet (DWT) seguida de la cuadratura de la señal. Esto ayuda a incrementar el rango dinámico de los picos dominantes en la señal, facilitando su detección
+
+Se implementa un algoritmo para detectar los picos R en la señal procesada. Esto se hace utilizando la función `find_peaks` de scipy, que permite identificar las posiciones de los picos en la señal.
+```python
+peaks, _ = find_peaks(squared_ecg, distance=150)
+r_peaks = np.array([i for i in peaks if squared_ecg[i] > umbral])
+```
+
+A partir de los picos R detectados, se calculan los intervalos RR, que son la diferencia entre los tiempos de ocurrencia de picos sucesivos. Estos intervalos son cruciales para el análisis de la variabilidad de la frecuencia cardíaca:
+```python
+rr_intervals = np.diff(r_peaks) / fs  # fs es la frecuencia de muestreo
+```
+
+Para obtener una señal HRV equidistante, se realiza una interpolación cúbica. Esto permite convertir las ubicaciones de tiempo de los intervalos RR, que no están equidistantemente muestreadas, en una señal HRV equidistante.
+</p>
 
 
 ## Para las señales de ECG 
