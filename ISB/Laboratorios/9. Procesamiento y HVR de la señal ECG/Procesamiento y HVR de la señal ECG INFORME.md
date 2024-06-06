@@ -110,9 +110,9 @@ filter with following transfer function este esta en el mini paper pero ampliar 
 </h5>
 
 #### ECG
-1. [Registro 1 - Bitalino: Reposo](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/5.%20Adquisi%C3%B3n%20de%20Se%C3%B1ales%20EEG/Archivos%20Texto/EEG_PrimeroOsjoscerrados.txt)</p>
-2. [Registro 2 - Bitalino: Abriendo/Cerrando ojos](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/5.%20Adquisi%C3%B3n%20de%20Se%C3%B1ales%20EEG/Archivos%20Texto/EEG_2_5s.txt)</p>
-3. [Registro 3 - Bitalino: Resolviendo ejercicios](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/5.%20Adquisi%C3%B3n%20de%20Se%C3%B1ales%20EEG/Archivos%20Texto/ejmate.txt)</p>
+1. [Registro 1 - Bitalino: Reposo](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/4.%20Adquisi%C3%B3n%20de%20Se%C3%B1ales%20ECG/Archivo%20texto/NormalBreath30s.txt)</p>
+2. [Registro 2 - Bitalino: Aguantando la respiracion 5 segundos](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/4.%20Adquisi%C3%B3n%20de%20Se%C3%B1ales%20ECG/Archivo%20texto/InHoldEx5s.txt)</p>
+3. [Registro 3 - Bitalino: Luego de hacer ejercicio](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/4.%20Adquisi%C3%B3n%20de%20Se%C3%B1ales%20ECG/Archivo%20texto/ReposandoBurpee30s.txt)</p>
 
 ### Archivos python 
 
