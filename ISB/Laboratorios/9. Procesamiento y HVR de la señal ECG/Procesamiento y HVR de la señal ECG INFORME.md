@@ -21,28 +21,22 @@
 
 <a id = "objetivo" style></a>
 <h2 style = "text-align: center;">Objetivos</h2>
-- <br />
-- <br />
-- <br />
+- Por medio de la literatura, hallar los valores normales variabilidad de la frecuencia cardiaca (HRV).<br />
+-Plotear los picos de la onda R de las señales de ECG antes tomadas y graficarlas utilizando python. <br />
+-
 
 
 <a id = "intro" style></a>
 <h2 style = "text-align: center;">Introducción</h2>
 
-bliblbiblbelbei florito de HRV
+La Variabilidad de la Frecuencia Cardíaca (HRV) es un parámetro vital significativo que refleja la actividad del Sistema Nervioso Autónomo (ANS). Es la variación en el tiempo entre latidos cardíacos consecutivos, y se mide en milisegundos. HRV es un indicador de la salud cardiovascular y la adaptabilidad del ANS ante diferentes estímulos y estrés​​​​.
+HRV se deriva principalmente de los intervalos RR, que son las diferencias de tiempo entre picos R sucesivos en un electrocardiograma (ECG). La precisión en la detección de estos picos R es crucial para una medición fiable de HRV. Métodos modernos incluyen el uso de filtros digitales, transformada de ondícula y algoritmos de aprendizaje automático para mejorar la detección y localización de estos pico [1], [2].
 
+###Métodos aplicados para calcular HRV
 
-qué parametros para el hvr 
-<br />hablar del RMSSD
-<br />hablar del SNRR
-<br />hablar del PNN50</p>
-
-
-
-### Filtros Notch 
-
-first order DC-notch IIR high-pass 
-filter with following transfer function este esta en el mini paper pero ampliar con info ustdes 
+Detección de Picos R: Utiliza algoritmos como el de Pan-Tompkins y modificaciones que incluyen filtros de paso de banda y técnicas de emparejamiento de plantillas para localizar con precisión los picos R en señales ECG [1]​​.
+Extracción de Intervalos RR: Una vez detectados los picos R, se calculan los intervalos RR como la diferencia temporal entre picos consecutivos.
+Análisis Espectral: Los intervalos RR se interpolan y se utiliza una transformada rápida de Fourier (FFT) o métodos autorregresivos para obtener el espectro de potencia de HRV. Se calculan índices como la potencia de baja frecuencia (LF) y alta frecuencia (HF), y su relación (LF/HF), para evaluar el balance simpático-vagal​​ [2].
 
  </p>
 <p align="center">
