@@ -23,7 +23,6 @@
 <h2 style = "text-align: center;">Objetivos</h2>
 - Por medio de la literatura, hallar los valores normales variabilidad de la frecuencia cardiaca (HRV).<br />
 -Plotear los picos de la onda R de las señales de ECG antes tomadas y graficarlas utilizando python. <br />
--
 
 
 <a id = "intro" style></a>
@@ -32,7 +31,7 @@
 La Variabilidad de la Frecuencia Cardíaca (HRV) es un parámetro vital significativo que refleja la actividad del Sistema Nervioso Autónomo (ANS). Es la variación en el tiempo entre latidos cardíacos consecutivos, y se mide en milisegundos. HRV es un indicador de la salud cardiovascular y la adaptabilidad del ANS ante diferentes estímulos y estrés​​​​.
 HRV se deriva principalmente de los intervalos RR, que son las diferencias de tiempo entre picos R sucesivos en un electrocardiograma (ECG). La precisión en la detección de estos picos R es crucial para una medición fiable de HRV. Métodos modernos incluyen el uso de filtros digitales, transformada de ondícula y algoritmos de aprendizaje automático para mejorar la detección y localización de estos pico [1], [2].
 
-###Métodos aplicados para calcular HRV
+### Métodos aplicados para calcular HRV
 
 Detección de Picos R: Utiliza algoritmos como el de Pan-Tompkins y modificaciones que incluyen filtros de paso de banda y técnicas de emparejamiento de plantillas para localizar con precisión los picos R en señales ECG [1]​​.
 Extracción de Intervalos RR: Una vez detectados los picos R, se calculan los intervalos RR como la diferencia temporal entre picos consecutivos.
@@ -207,15 +206,16 @@ Acontinuación se presentará la extracción de los picos utilizando la función
 </h5>
 
 #### Parámetros importantes:
-1. RMSSD: 0.0373
-2. SDNN: 0.0373
+1. RMSSD: 0.0373 s
+2. SDNN: 0.0373 s
 3. PNN50: 4.347 %
 
 
 #### Interpretación:
-RECUEDDEN QUE ESTA EN REPOSO</p>
-(HABLAR DE HRV) y lo que se espera ver aqui tipo los parametros normales TIPO SI JUANJO ESTA BIEN </p>
-+ HRV</p>
+- RMSSD: Los valores normales de RMSSD en adultos sanos generalmente oscilan entre 19 y 75 ms, con un promedio de alrededor de 42 ms [4]. En nuestro caso, el valor obtenido de RMSSD es de 37.3 ms, lo cual se encuentra dentro del rango normal, aunque ligeramente por debajo del promedio. Esto sugiere una variabilidad de frecuencia cardíaca adecuada con una respuesta vagal saludable.
+- SDNN: Los valores normales de SDNN en grabaciones a corto plazo (~5 minutos) para adultos sanos están en el rango de 32 a 93 ms, con un promedio de 50 ms. El valor obtenido de SDNN es de 37.3 ms, lo cual se encuentra dentro del rango normal, aunque por debajo del promedio. Esto indica una variabilidad total de la frecuencia cardíaca en un nivel considerado saludable, pero podría ser mejor [4].
+- pNN50: Los valores normales de pNN50 en adultos sanos generalmente oscilan entre 1 y 45%, con un promedio de alrededor de 18%. En nuestro caso, el valor obtenido de pNN50 es de 4.347%, lo cual está dentro del rango normal, pero significativamente por debajo del promedio. Esto sugiere una menor variabilidad de alta frecuencia, reflejando una actividad parasimpática menos prominente [4].
+
 
 
 
@@ -270,16 +270,17 @@ Acontinuación se presentará la extracción de los picos utilizando la función
 </h5>
 
 #### Parámetros importantes:
-1. RMSSD: 0.49033
-2. SDNN: 0.3513
+1. RMSSD: 0.49033 s
+2. SDNN: 0.3513 s
 3. PNN50: 10.3448 %
 
 
 
 #### Interpretación:
-RECUERDEN QUE ESTA AGUANTANDO LA RESPIRACION POR 5S</p>
-(HABLAR DE HRV) y lo que se espera ver aqui tipo los parametros normales TIPO SI JUANJO ESTA BIEN </p>
-+ HRV
+- RMSSD: En este caso, el valor obtenido de RMSSD durante el ejercicio de respiración es de 490.33 ms, lo cual es significativamente más alto que el rango normal. Esto sugiere una altísima variabilidad de frecuencia cardíaca, indicando una fuerte actividad parasimpática inducida por el ejercicio de respiración controlada [4].
+- SDNN: El valor obtenido de SDNN durante el ejercicio de respiración es de 351.3 ms, lo cual es significativamente más alto que el rango normal. Esto indica una variabilidad total de la frecuencia cardíaca extremadamente alta, reflejando una fuerte actividad autónoma, posiblemente debido a la sincronización de la respiración con la frecuencia cardíaca[4].
+- pNN50: En este caso, el valor obtenido de pNN50 durante el ejercicio de respiración es de 10.3448%, lo cual está dentro del rango normal pero por debajo del promedio. Esto sugiere una menor variabilidad de alta frecuencia comparada con los otros índices, aunque todavía en un nivel saludable y reflejando una actividad parasimpática moderada [4].
+
 
 
 
@@ -339,19 +340,48 @@ Acontinuación se presentará la extracción de los picos utilizando la función
 3. PNN50: 9.5238 %
 
 #### Interpretación:
-RECUEDDEN QUE ESTA EN REPOSO</p>
-(HABLAR DE HRV) y lo que se espera ver aqui tipo los parametros normales TIPO SI JUANJO ESTA BIEN </p>
-+ HRV</p>
+
+- RMSSD el valor obtenido de RMSSD durante el estado de reposo luego del ejercicio de respiración es de 165.3 ms, lo cual es significativamente más alto que el rango normal. Esto sugiere una altísima variabilidad de frecuencia cardíaca, indicando una fuerte actividad parasimpática inducida por el ejercicio de respiración controlada[4].
+- SDNN: El valor obtenido de SDNN durante el estado de reposo luego del ejercicio de respiración es de 134.5 ms, lo cual es significativamente más alto que el rango normal. Esto indica una variabilidad total de la frecuencia cardíaca extremadamente alta, reflejando una fuerte actividad autónoma, posiblemente debido a la sincronización de la respiración con la frecuencia cardíaca [4].
+- pNN50. En este caso, el valor obtenido de 9.5238%, está dentro del rango normal pero por debajo del promedio. Esto sugiere una menor variabilidad de alta frecuencia comparada con los otros índices, aunque todavía en un nivel saludable y reflejando una actividad parasimpática moderada [4].
 
 
 <a id = "explic"></a>
 <h2 style = "text-align: center;">Resumen y Discusión</h2>
 
-explicacion y resumen de lo identificado ya estudes saben floro
+### Discusión
+
+La Variabilidad de la Frecuencia Cardíaca (HRV) es un parámetro esencial para evaluar la actividad del Sistema Nervioso Autónomo (ANS). En este estudio, analizamos los valores de HRV en diferentes condiciones: reposo, durante un ejercicio de respiración controlada y en reposo después del ejercicio. Utilizamos los índices RMSSD, SDNN y pNN50 para evaluar la HRV y compararlos con los valores normales reportados en la literatura.
+
+En reposo, el RMSSD obtenido fue de 37.3 ms, situándose dentro del rango normal (19-75 ms) pero ligeramente por debajo del promedio de 42 ms [4]. Esto sugiere una variabilidad de frecuencia cardíaca adecuada con una respuesta vagal saludable. El SDNN fue de 37.3 ms, también dentro del rango normal (32-93 ms) pero por debajo del promedio de 50 ms, indicando una variabilidad total de la frecuencia cardíaca en un nivel saludable, aunque podría ser mejor. El pNN50 fue de 4.347%, dentro del rango normal (1-45%) pero significativamente por debajo del promedio de 18%, lo que sugiere una menor variabilidad de alta frecuencia y una actividad parasimpática menos prominente [4].
+
+Durante el ejercicio de respiración (inhalación 5 segundos, mantenimiento 5 segundos, exhalación 5 segundos), el RMSSD alcanzó 490.33 ms, un valor significativamente más alto que el rango normal, indicando una altísima variabilidad de frecuencia cardíaca y una fuerte actividad parasimpática inducida por la respiración controlada. El SDNN fue de 351.3 ms, también muy por encima del rango normal, reflejando una variabilidad total de la frecuencia cardíaca extremadamente alta debido a la sincronización de la respiración con la frecuencia cardíaca. El pNN50 fue de 10.3448%, dentro del rango normal pero por debajo del promedio, sugiriendo una menor variabilidad de alta frecuencia comparada con los otros índices, aunque todavía en un nivel saludable[4].
+
+En el estado de reposo luego del ejercicio de respiración, el RMSSD fue de 165.3 ms, significativamente más alto que el rango normal, sugiriendo una altísima variabilidad de frecuencia cardíaca y una fuerte actividad parasimpática. El SDNN fue de 134.5 ms, también muy por encima del rango normal, indicando una variabilidad total de la frecuencia cardíaca extremadamente alta. El pNN50 fue de 9.5238%, dentro del rango normal pero por debajo del promedio, reflejando una actividad parasimpática moderada pero saludable[4].
+
+Estos resultados demuestran que el ejercicio de respiración controlada tiene un impacto significativo en la HRV, aumentando notablemente la variabilidad de la frecuencia cardíaca y la actividad parasimpática. Esto sugiere que tales ejercicios pueden ser útiles para mejorar la función del sistema nervioso autónomo y la salud cardiovascular en general.
+
+### Resumen
+
+Los objetivos de este estudio fueron determinar los valores normales de la variabilidad de la frecuencia cardíaca (HRV) a partir de la literatura y plotear los picos de la onda R de las señales de ECG previamente obtenidas, utilizando Python. La HRV es un indicador crucial de la salud cardiovascular y la capacidad de adaptación del ANS a diferentes estímulos. La HRV se calcula a partir de los intervalos RR, derivados de los picos R en un ECG.
+
+Para este análisis, se utilizaron señales ECG previamente adquiridas y filtradas. Los picos R se detectaron mediante el algoritmo de Pan-Tompkins y se calcularon los intervalos RR. La señal HRV se obtuvo mediante interpolación cúbica y se analizó utilizando el método de Welch para calcular la densidad espectral de potencia (PSD).
+
+En reposo, los valores de RMSSD, SDNN y pNN50 se situaron dentro del rango normal pero por debajo del promedio, indicando una variabilidad de frecuencia cardíaca adecuada pero mejorable. Durante el ejercicio de respiración controlada, los valores aumentaron significativamente, reflejando una fuerte actividad parasimpática y una alta variabilidad de la frecuencia cardíaca. Después del ejercicio, los valores permanecieron elevados, sugiriendo una sostenida actividad autónoma y una eficiente respuesta parasimpática.
+
+En conclusión, el ejercicio de respiración controlada mejora significativamente la HRV y la actividad parasimpática, promoviendo una mejor recuperación y equilibrio homeostático. Estos resultados destacan la efectividad de los ejercicios de respiración en la mejora de la función del sistema nervioso autónomo y la salud cardiovascular.
+
 
 <a id = "Bibliografía"></a>
 <h2 style = "text-align: center;">Bibliografía</h2>
 
-[1]	 
+[1]	D. Zhai, X. Bao, X. Long, T. Ru, and G. Zhou, “Precise detection and localization of R-peaks from ECG signals,” Math. Biosci. Eng., vol. 20, no. 11, pp. 19191–19208, 2023, doi: 10.3934/mbe.2023848.F. Shaffer and J. P. Ginsberg, "An Overview of Heart Rate Variability Metrics and Norms," Frontiers in Public Health, vol. 5, pp. 258, Sept. 2017. doi: 10.3389/fpubh.2017.00258.
+
+[2]	A. Verma, S. Cabrera, A. Mayorga, and H. Nazeran, “A robust algorithm for derivation of heart rate variability spectra from ECG and PPG signals,” in 2013 29th southern biomedical engineering conference, IEEE, 2013, pp. 35–36. doi: http://dx.doi.org/10.1109/SBEC.2013.26.
+
+[3]	A. R. Crecelius, “Heart rate variability – what to know about this biometric most fitness trackers measure,” The Conversation. Accessed: Jun. 06, 2024. [Online]. Available: http://theconversation.com/heart-rate-variability-what-to-know-about-this-biometric-most-fitness-trackers-measure-194898
+
+[4]	F. Shaffer and J. P. Ginsberg, “An overview of heart rate variability metrics and norms,” Front. Public Health, vol. 5, p. 290215, 2017.
+
 
 
