@@ -1,4 +1,4 @@
-z<h1 style="text-align: center;">Laboratorio 9: Procesamiento y HVR de la señal ECG</h1>
+<h1 style="text-align: center;">Laboratorio 9: Procesamiento y HVR de la señal ECG</h1>
 
 </h3>Nombre de los Integrantes y código:
 
