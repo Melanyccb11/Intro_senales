@@ -60,35 +60,35 @@ Análisis Espectral: Los intervalos RR se interpolan y se utiliza una transforma
 <a id = "metodo" style></a>
 <h2 style = "text-align: center;">Metodolodía</h2>
 
-### Metodología General
+#### Metodología General
 </p>
 
 La Variabilidad de la Frecuencia Cardíaca (HRV) es un parámetro vital que refleja la actividad del Sistema Nervioso Autónomo (ANS). La HRV se mide a partir de los intervalos RR, que son las diferencias de tiempo entre picos R sucesivos en un electrocardiograma (ECG). Este análisis es esencial para evaluar la salud cardiovascular y la respuesta del ANS a diferentes estímulos y estrés. [4][5]
 
-- Adquisición de señales ECG
+- Adquisición de señales ECG: 
 Para realizar este análisis, utilizamos señales ECG previamente adquiridas y filtradas. Las señales deben ser capturadas con una frecuencia adecuada, para asegurar la captura de detalles finos de las ondas ECG. [4]
 
-- Procesamiento de la señal
+- Procesamiento de la señal:
 Primero, se aplica un filtro pasa alta para eliminar componentes de baja frecuencia y tendencias de la señal ECG. Luego, utilizamos la Transformada Discreta de Wavelet (DWT) para resaltar los picos R en la señal, y cuadramos la señal resultante para incrementar el rango dinámico de los picos dominantes, facilitando su detección.
 
-- Detección de Picos R
+- Detección de Picos R: 
 Implementamos el algoritmo de Pan-Tompkins que incluye técnicas de emparejamiento de plantillas y filtros de pasa banda, para detectar con precisión los picos R. [4]
 Utilizaremos la función ‘fin_peaks’ de la biblioteca scipy para identificar las posiciones de los picos en la señal procesada.
 
-- Cálculo de intervalos RR
+- Cálculo de intervalos RR: 
 Una vez detectados los picos R, calculamos los intervalos RR, que son las diferencias de tiempo entre los tiempos de ocurrencia de los picos sucesivos. Estos intervalos son cruciales para el análisis de la HRV.
 
-- Interpolación de intervalos RR
+- Interpolación de intervalos RR:
 Para obtener una señal HRV equidistante, realizaremos una interpolación cúbica de los intervalos RR. Esto convierte las ubicaciones de tiempo de los intervalos RR, que no están equidistantemente muestreadas, en una señal HRV equidistante. [5]
 
 
-- Análisis Espectral
+- Análisis Espectral:
 Calculamos la densidad espectral de potencia (PSD) de la señal HRV utilizando el método de Welch. Este método nos permite analizar los componentes de frecuencia de la señal HRV, proporcionando una visión detallada de la variabilidad de la frecuencia cardiaca. [6]
 
-- Visualización de Resultados
+- Visualización de Resultados:
 Graficamos tanto la señal ECG original como la señal procesada, resaltando los picos R detectados. También graficamos la señal HRV y su PSD. Estas visualizaciones son esenciales para entender la calidad de las señales y los resultados del procesamiento.
 
-- Evaluación de la HRV
+- Evaluación de la HRV:
 Comparamos los valores obtenidos (RMSSD, SDNN, pNN50) con los valores normales reportados en la literatura. [6] Evaluamos la salud cardiovascular y la adaptabilidad del ANS basándonos en estos resultados, proporcionando una interpretación detallada de la HRV en el contexto del estudio.
 
 
