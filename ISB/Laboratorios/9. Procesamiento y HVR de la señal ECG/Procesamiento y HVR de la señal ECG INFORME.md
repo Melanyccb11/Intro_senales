@@ -29,19 +29,19 @@
 <h2 style = "text-align: center;">Introducción</h2>
 
 La Variabilidad de la Frecuencia Cardíaca (HRV) es un parámetro vital significativo que refleja la actividad del Sistema Nervioso Autónomo (ANS). Es la variación en el tiempo entre latidos cardíacos consecutivos, y se mide en milisegundos. HRV es un indicador de la salud cardiovascular y la adaptabilidad del ANS ante diferentes estímulos y estrés​​​​.
-HRV se deriva principalmente de los intervalos RR, que son las diferencias de tiempo entre picos R sucesivos en un electrocardiograma (ECG). La precisión en la detección de estos picos R es crucial para una medición fiable de HRV. Métodos modernos incluyen el uso de filtros digitales, transformada de ondícula y algoritmos de aprendizaje automático para mejorar la detección y localización de estos pico [1], [2].
+HRV se deriva principalmente de los intervalos RR, que son las diferencias de tiempo entre picos R sucesivos en un electrocardiograma (ECG). La precisión en la detección de estos picos R es crucial para una medición fiable de HRV. Métodos modernos incluyen el uso de filtros digitales, transformada de ondícula y algoritmos de aprendizaje automático para mejorar la detección y localización de estos pico [1], [2], [3].
 
 ### Métodos aplicados para calcular HRV
 
-Detección de Picos R: Utiliza algoritmos como el de Pan-Tompkins y modificaciones que incluyen filtros de paso de banda y técnicas de emparejamiento de plantillas para localizar con precisión los picos R en señales ECG [1]​​.
+Detección de Picos R: Utiliza algoritmos como el de Pan-Tompkins y modificaciones que incluyen filtros de paso de banda y técnicas de emparejamiento de plantillas para localizar con precisión los picos R en señales ECG [2]​​.
 Extracción de Intervalos RR: Una vez detectados los picos R, se calculan los intervalos RR como la diferencia temporal entre picos consecutivos.
-Análisis Espectral: Los intervalos RR se interpolan y se utiliza una transformada rápida de Fourier (FFT) o métodos autorregresivos para obtener el espectro de potencia de HRV. Se calculan índices como la potencia de baja frecuencia (LF) y alta frecuencia (HF), y su relación (LF/HF), para evaluar el balance simpático-vagal​​ [2].
+Análisis Espectral: Los intervalos RR se interpolan y se utiliza una transformada rápida de Fourier (FFT) o métodos autorregresivos para obtener el espectro de potencia de HRV. Se calculan índices como la potencia de baja frecuencia (LF) y alta frecuencia (HF), y su relación (LF/HF), para evaluar el balance simpático-vagal​​ [3].
 
  </p>
 <p align="center">
- <img width="250" height="150" src="">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/9.%20Procesamiento%20y%20HVR%20de%20la%20se%C3%B1al%20ECG/Im%C3%A1genes/hrv.png">
 <h5 align="center">
-  <i>Figura 1. La variabilidad de la frecuencia cardíaca </i></div>
+  <i>Figura 1. La variabilidad de la frecuencia cardíaca [4] </i></div>
 <br /> </p>
 </h5>
 
@@ -374,13 +374,11 @@ En conclusión, el ejercicio de respiración controlada mejora significativament
 <a id = "Bibliografía"></a>
 <h2 style = "text-align: center;">Bibliografía</h2>
 
-[1]	D. Zhai, X. Bao, X. Long, T. Ru, and G. Zhou, “Precise detection and localization of R-peaks from ECG signals,” Math. Biosci. Eng., vol. 20, no. 11, pp. 19191–19208, 2023, doi: 10.3934/mbe.2023848.F. Shaffer and J. P. Ginsberg, "An Overview of Heart Rate Variability Metrics and Norms," Frontiers in Public Health, vol. 5, pp. 258, Sept. 2017. doi: 10.3389/fpubh.2017.00258.
-
-[2]	A. Verma, S. Cabrera, A. Mayorga, and H. Nazeran, “A robust algorithm for derivation of heart rate variability spectra from ECG and PPG signals,” in 2013 29th southern biomedical engineering conference, IEEE, 2013, pp. 35–36. doi: http://dx.doi.org/10.1109/SBEC.2013.26.
-
-[3]	A. R. Crecelius, “Heart rate variability – what to know about this biometric most fitness trackers measure,” The Conversation. Accessed: Jun. 06, 2024. [Online]. Available: http://theconversation.com/heart-rate-variability-what-to-know-about-this-biometric-most-fitness-trackers-measure-194898
-
-[4]	F. Shaffer and J. P. Ginsberg, “An overview of heart rate variability metrics and norms,” Front. Public Health, vol. 5, p. 290215, 2017.
+[1]	R. Tiwari, R. Kumar, S. Malik, T. Raj, and P. Kumar, “Analysis of Heart Rate Variability and Implication of Different Factors on Heart Rate Variability,” Curr. Cardiol. Rev., vol. 17, no. 5, p. e160721189770, Oct. 2021, doi: 10.2174/1573403X16999201231203854. </p>
+[2]	D. Zhai, X. Bao, X. Long, T. Ru, and G. Zhou, “Precise detection and localization of R-peaks from ECG signals,” Math. Biosci. Eng., vol. 20, no. 11, pp. 19191–19208, 2023, doi: 10.3934/mbe.2023848.</p>
+[3]	A. Verma, S. Cabrera, A. Mayorga, and H. Nazeran, “A robust algorithm for derivation of heart rate variability spectra from ECG and PPG signals,” in 2013 29th southern biomedical engineering conference, IEEE, 2013, pp. 35–36. doi: http://dx.doi.org/10.1109/SBEC.2013.26.</p>
+[4]	A. R. Crecelius, “Heart rate variability – what to know about this biometric most fitness trackers measure,” The Conversation. Accessed: Jun. 06, 2024. [Online]. Available: http://theconversation.com/heart-rate-variability-what-to-know-about-this-biometric-most-fitness-trackers-measure-194898. </p>
+[5]	F. Shaffer and J. P. Ginsberg, “An overview of heart rate variability metrics and norms,” Front. Public Health, vol. 5, p. 290215, 2017.</p>
 
 
 
