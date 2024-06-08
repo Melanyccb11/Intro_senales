@@ -148,11 +148,6 @@ Finalmente, se grafican tanto la señal ECG original y procesada, como la señal
 
 ## Para las señales de ECG 
 
-VER SI ESTO SE QUEDA
-
-elegi fitro notch y luego le aplique db6 con umbral MIREN EL CODIGOOOOO o el papersssss
-
-
 ## Reposo :
 
 Primero evaluamos la señal original, para eso le sacamos su Transformada de Fourier<p>
