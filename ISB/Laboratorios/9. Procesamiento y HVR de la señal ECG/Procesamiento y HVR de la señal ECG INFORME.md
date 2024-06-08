@@ -45,24 +45,6 @@ Análisis Espectral: Los intervalos RR se interpolan y se utiliza una transforma
 <br /> </p>
 </h5>
 
-
- </p>
-<p align="center">
- <img width="250" height="150" src="">
-<h5 align="center">
-  <i>Figura 1. </i></div>
-<br /> </p>
-</h5>
-
- </p>
-<p align="center">
- <img width="660" height="400" src="">
-<h5 align="center">
-  <i>Figura 2. balbla.</i></div></h5>>
-<p>
-
-  
-
 <a id = "matereiales"></a>  
 <h2 style = "text-align: center;">Materiales y equipos</h2>
 
