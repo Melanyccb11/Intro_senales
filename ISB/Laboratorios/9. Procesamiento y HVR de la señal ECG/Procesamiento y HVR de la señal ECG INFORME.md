@@ -22,7 +22,7 @@
 <a id = "objetivo" style></a>
 <h2 style = "text-align: center;">Objetivos</h2>
 - Por medio de la literatura, hallar los valores normales variabilidad de la frecuencia cardiaca (HRV).<br />
--Plotear los picos de la onda R de las señales de ECG antes tomadas y graficarlas utilizando python. <br />
+- Plotear los picos de la onda R de las señales de ECG antes tomadas y graficarlas utilizando python. <br />
 
 
 <a id = "intro" style></a>
@@ -41,16 +41,9 @@ Análisis Espectral: Los intervalos RR se interpolan y se utiliza una transforma
 <p align="center">
  <img width="250" height="150" src="">
 <h5 align="center">
-  <i>Figura 1. </i></div>
+  <i>Figura 1. La variabilidad de la frecuencia cardíaca </i></div>
 <br /> </p>
 </h5>
-
- </p>
-<p align="center">
- <img width="660" height="400" src="">
-<h5 align="center">
-  <i>Figura 2. balbla.</i></div></h5>
-
 
 
  </p>
