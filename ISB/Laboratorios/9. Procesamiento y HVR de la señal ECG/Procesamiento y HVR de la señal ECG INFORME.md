@@ -328,8 +328,8 @@ Acontinuación se presentará la extracción de los picos utilizando la función
 </h5>
 
 #### Parámetros importantes:
-1. RMSSD: 0.1653
-2. SDNN: 0.1345
+1. RMSSD: 0.1653 s
+2. SDNN: 0.1345 s
 3. PNN50: 9.5238 %
 
 #### Interpretación:
