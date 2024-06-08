@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Laboratorio 9: Procesamiento y HVR de la señal ECG</h1>
+z<h1 style="text-align: center;">Laboratorio 9: Procesamiento y HVR de la señal ECG</h1>
 
 </h3>Nombre de los Integrantes y código:
 
@@ -377,7 +377,7 @@ En conclusión, el ejercicio de respiración controlada mejora significativament
 [2]	D. Zhai, X. Bao, X. Long, T. Ru, and G. Zhou, “Precise detection and localization of R-peaks from ECG signals,” Math. Biosci. Eng., vol. 20, no. 11, pp. 19191–19208, 2023, doi: 10.3934/mbe.2023848.</p>
 [3]	A. Verma, S. Cabrera, A. Mayorga, and H. Nazeran, “A robust algorithm for derivation of heart rate variability spectra from ECG and PPG signals,” in 2013 29th southern biomedical engineering conference, IEEE, 2013, pp. 35–36. doi: http://dx.doi.org/10.1109/SBEC.2013.26.</p>
 [4]	A. R. Crecelius, “Heart rate variability – what to know about this biometric most fitness trackers measure,” The Conversation. Accessed: Jun. 06, 2024. [Online]. Available: http://theconversation.com/heart-rate-variability-what-to-know-about-this-biometric-most-fitness-trackers-measure-194898. </p>
-[5]	F. Shaffer and J. P. Ginsberg, “An overview of heart rate variability metrics and norms,” Front. Public Health, vol. 5, p. 290215, 2017.</p>
+[5]	F. Shaffer and J. P. Ginsberg, "An Overview of Heart Rate Variability Metrics and Norms," Frontiers in Public Health, vol. 5, pp. 258, Sept. 2017. doi: 10.3389/fpubh.2017.00258..</p>
 [6]	J. Pan and W. J. Tompkins, "A real-time QRS detection algorithm," IEEE Transactions on Biomedical Engineering, vol. BME-32, no. 3, pp. 230-236, Mar. 1985. doi: 10.1109/TBME.1985.325532..</p>
 
 
