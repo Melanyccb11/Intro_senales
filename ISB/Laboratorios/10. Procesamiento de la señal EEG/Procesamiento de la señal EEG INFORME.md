@@ -36,13 +36,26 @@ En los últimos años, las técnicas de procesamiento de señales EEG han avanza
 Este informe se centra en el análisis de señales EEG, a partir de las señales que obtuvimos en laboratorios pasados y una base de datos fisiológico se hará realizará un filtrado, preprocesamiento,  extracción de características y su clasificación. </p>
 
 <p align="center">
- <img width="250" height="150" src="figurita">
+ <img width="500" height="300" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/EEG%20waves.png">
 <h5 align="center">
-  <i>Figura 1. blibli. </i></div>
+  <i>Figura 1. Ondas EEG [K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.]. </i></div>
 <br /> </p>
 </h5>
+- Ondas cerebrales beta (β) (13-30 Hz):
+Estas ondas tienen la frecuencia más alta entre todas las ondas cerebrales. Se generan en los lóbulos frontales del cerebro y son ondas irregulares. Normalmente dominan los estados de conciencia durante la vigilia y ocurren cuando la atención se dirige hacia tareas cognitivas y otras actividades. Se producen cuando una persona está alerta, concentrada, atenta, enfocada y comprometida en la toma de decisiones o resolución de problemas. La ansiedad y la depresión también se han relacionado con las ondas beta, ya que pueden conducir a patrones de pensamiento repetitivos. Cuando alguien está participando en una conversación, hay un aumento en las ondas beta.
 
-<a id = "matereiales"></a>  
+- Ondas cerebrales alfa (α) (8-10 Hz):
+Las ondas alfa son muy regulares y sincronizadas. Se generan en los lóbulos parietales u occipitales. Se producen cuando los ojos están cerrados y durante actividades como el yoga y la meditación, cuando la mente está alerta y la memoria está potenciada. Cuando un pintor o músico está realizando una obra creativa, se emiten estas ondas. Se generan en un estado de relajación y ayudan a mejorar la memoria. Hans Berger solo pudo registrar las ondas alfa, por lo que también se conocen como ondas de Berger.
+
+- Ondas cerebrales theta (θ) (4-7 Hz):
+Estas ondas se producen en el hipocampo del cerebro. Se generan cuando la mente está decepcionada. Durante el sueño REM, se producen las ondas theta. Justo antes de quedarnos dormidos y justo después de despertar, cuando la mente no está tan consciente como en el estado de vigilia normal, se generan las ondas theta. También se producen durante la meditación profunda y cuando estamos recordando recuerdos olvidados hace mucho tiempo.
+
+- Ondas cerebrales delta (δ) (2-4 Hz):
+Estas ondas se crean durante el estado de sueño profundo y tienen varios efectos terapéuticos. Ayudan a sanar perturbaciones. Cuando nuestro estado de ánimo es bajo o nos sentimos tristes, y después de un sueño profundo nos despertamos sintiéndonos energéticos, es porque el cerebro ha producido ondas delta K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.[].
+
+ 
+
+<a id = "materiales"></a>  
 <h2 style = "text-align: center;">Materiales y equipos</h2>
 
 <div align="center">
