@@ -102,7 +102,7 @@ Para aplicar la transformada wavelet a una señal EEG después de la normalizaci
 <img width="800" height="600" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/RAW%20SIGNALS.png">
 </p>
 <h5 align="center">
-  Figura 2: Señal obtenida en python: Actividad 1.[Elaboración propia]
+  Figura 2: Señal obtenida en python: Actividad 1 [Elaboración propia].
 </h5>
 El primer conjunto de gráficos muestra las señales EEG originales de la base de datos , en este, se observan varios canales (TP9, AF7, AF8, TP10, Right AUX). Donde podemos observar que las señales contienen una cantidad significativa de ruido y hay picos notables con variaciones en la amplitud. Estas variaciones podrían deberse a movimientos musculares, parpadeos o interferencias electromagnéticas.
 
@@ -114,7 +114,7 @@ Procemos a la aplicación de los filtros mencionados, primero el filtro pasaband
 <img width="800" height="600" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/NORMALIZED%20AND%20FILTERED%20SIGNALS.png"">
 </p>
 <h5 align="center">
-  Figura 3: Señal normalizada y filtrada en python previamente filtrada.[Elaboración propia]
+  Figura 3: Señal normalizada y filtrada en python previamente filtrada [Elaboración propia].
 </h5>
 Conjunto de gráficos muestra las señales EEG filtradas y normalizadas utilizando un filtro iir pasa banda (0.5-25 Hz) para centrarse en las bandas de frecuencia típicas del EEG (delta, theta, alfa, beta) [6].
 Podemos ver que el filtrado reduce significativamente el ruido y que las variaciones de amplitud son más suaves. Para la normalización se utilizó la biblioteca MNE, esto implica aplicar un filtro pasa banda adicional y ajustar las señales para que tengan una amplitud comparable.
