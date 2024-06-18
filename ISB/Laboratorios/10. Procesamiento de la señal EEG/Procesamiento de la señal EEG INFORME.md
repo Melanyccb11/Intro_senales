@@ -35,13 +35,6 @@ En los últimos años, las técnicas de procesamiento de señales EEG han avanza
 
 Este informe se centra en el análisis de señales EEG, a partir de las señales que obtuvimos en laboratorios pasados y una base de datos fisiológico se hará realizará un filtrado, preprocesamiento,  extracción de características y su clasificación. </p>
 
-
-
-### Métodos aplicados para calcular HRV
-
-bliblibli
-
- </p>
 <p align="center">
  <img width="250" height="150" src="figurita">
 <h5 align="center">
@@ -57,7 +50,7 @@ bliblibli
 |   **Dispositivo**   | **Descripción** |  **Imagen**  |
 |:-------------------:|:---------------:|:------------:|
 |      Laptop      | Una laptop equipada con Python, un lenguaje de programación versátil y poderoso, es ideal para realizar tareas de programación y análisis de datos en entornos de laboratorio. |<img width="200" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/6.%20Filtros%20IIR%20y%20FIR/Im%C3%A1genes/68af906e-92c2-4096-ab4c-06e60cba53f1.jpg">|
-|      Database     | La Base de base datos de PhysioNet cuenta con acceso abierto a usarios para la extración de registros de estudios de señales fisilógicas. |<img width="200" height="150" src="">|
+|      Database     | La Base de base datos de PhysioNet cuenta con acceso abierto a usarios para la extración de registros de estudios de señales fisilógicas. |<img width="200" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/physionet.png">|
 </div>
 
 </p>
@@ -73,9 +66,6 @@ El proceso de normalización de la señal EEG después del filtrado incluye dete
 #### Wavelet
 Para aplicar la transformada wavelet a una señal EEG después de la normalización, primero se selecciona una función wavelet adecuada, como Daubechies, que se ajusta bien a las características de la señal EEG. Luego, se descompone la señal normalizada en coeficientes de detalle y aproximación a varios niveles de frecuencia utilizando la transformada wavelet discreta (DWT). Posteriormente, se aplica un umbral a los coeficientes wavelet para eliminar el ruido presente en la señal, usando técnicas como la umbralización suave o dura. Finalmente, se reconstruye la señal limpia a partir de los coeficientes umbralizados mediante la transformada wavelet inversa (IDWT), asegurando que las características esenciales de la señal se conservan mientras se elimina el ruido. Esta metodología permite una mejora significativa en la calidad de la señal EEG para análisis posteriore [I. H. Elshekhidris, M. B. MohamedAmien, and A. Fragoon, “WAVELET TRANSFORMS FOR EEG SIGNAL DENOISING AND DECOMPOSITION,” Int. J. Adv. SIGNAL IMAGE Sci., vol. 9, no. 2, Art. no. 2, Dec. 2023, doi: 10.29284/ijasis.9.2.2023.11-28.] [M. Jas et al., “MEG/EEG group study with MNE: recommendations, quality assessments and best practices.” Dec. 28, 2017. doi: 10.1101/240044.]
 
-
-
-
 </p>
 
 
@@ -85,75 +75,56 @@ Para aplicar la transformada wavelet a una señal EEG después de la normalizaci
 
 #### ECG
 1. [Registro 1 - Base de datos Physionet](https://physionet.org/content/brain-wearable-monitoring/1.0.0/)</p>
-
-
 ### Archivos python 
-
 1. [Código principal]()</p>
-
-
 <a id = "python"></a>
 <h2 style = "text-align: center;">Ploteo de la señal en Python</h2>
 </p>
 
-intro de lo que maso se ehace
+#### Señal adquirida :
 
-</p>
-
-
-## Para las señales de ECG 
-
-## Señal cruda :
-
-Primero evaluamos la señal original, para eso le sacamos su Transformada de Fourier<p>
 </p>
 <p align="center">
-<img width="800" height="600" src="">
+<img width="800" height="600" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/RAW%20SIGNALS.png">
 </p>
 <h5 align="center">
-  Figura 1: Señal obtenida en python: Actividad 1.[Elaboración propia]
+  Figura 2: Señal obtenida en python: Actividad 1.[Elaboración propia]
 </h5>
+El primer conjunto de gráficos muestra las señales EEG originales de la base de datos , en este, se observan varios canales (TP9, AF7, AF8, TP10, Right AUX). Donde podemos observar que las señales contienen una cantidad significativa de ruido y hay picos notables con variaciones en la amplitud. Estas variaciones podrían deberse a movimientos musculares, parpadeos o interferencias electromagnéticas.
 
 Procemos a la aplicación de los filtros mencionados, primero el filtro pasabanda, seguido por el filtrado IIR.</p>
-#### Pasabanda y filtro IIR:
-</p>
-<p align="center">
-<img width="800" height="600" src="">
-</p>
-<h5 align="center">
-  Figura 9: Señal obtenida en python previamente filtrada.[Elaboración propia]
-</h5>
 
-#### Normalización:
+#### Normalización (Pasabanda y filtro IIR):
 </p>
 <p align="center">
-<img width="800" height="600" src="">
+<img width="800" height="600" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/NORMALIZED%20AND%20FILTERED%20SIGNALS.png"">
 </p>
 <h5 align="center">
-  Figura 9: Señal obtenida en python: Normalización.[Elaboración propia]
+  Figura 3: Señal normalizada y filtrada en python previamente filtrada.[Elaboración propia]
 </h5>
+Conjunto de gráficos muestra las señales EEG filtradas y normalizadas utilizando un filtro iir pasa banda (0.5-25 Hz) para centrarse en las bandas de frecuencia típicas del EEG (delta, theta, alfa, beta) [6].
+Podemos ver que el filtrado reduce significativamente el ruido y que las variaciones de amplitud son más suaves. Para la normalización se utilizó la biblioteca MNE, esto implica aplicar un filtro pasa banda adicional y ajustar las señales para que tengan una amplitud comparable.
 
 #### Wavelet:
 </p>
 <p align="center">
-<img width="800" height="600" src="">
+<img width="800" height="600" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/Wavelet%20and%20coeff.png">
 </p>
 <h5 align="center">
-  Figura 9: Señal obtenida en python: filtrado wavelet[Elaboración propia]
+  Figura 4: Señal obtenida en python: filtrado wavelet[Elaboración propia]
 </h5>
-
-blbiblbie
+Conjunto de gráficos se aplica una transformada wavelet discreta (DWT) a las señales normalizadas para extraer características tiempo-frecuencia. Esto es útil para capturar eventos transitorios en los datos EEG [5].
 </p>
 
-#### Extraccion de características:
+#### FFT DE LA SEÑAL NORMALIZADA:
 </p>
 <p align="center">
-<img width="800" height="600" src="">
+<img width="800" height="600" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/FFT%20OF%20SIGNALS.png">
 </p>
 <h5 align="center">
-  Figura 9: Señal obtenida en python: Extracción de características.[Elaboración propia]
+  Figura 5: FFT de la señal normalizada obtenida en python: Extracción de características.[Elaboración propia]
 </h5>
-
+En la figura 5 se aprecia el conjunto de gráficos de la magnitud de la FFT de las señales EEG filtradas y normalizadas en decibelios (dB). Donde la mayor parte de la señal se concentra por debajo de los 30 Hz, como se esperaba. </p>
 
 #### Parámetros importantes:
 1. RMSSD: 0.0373 s
