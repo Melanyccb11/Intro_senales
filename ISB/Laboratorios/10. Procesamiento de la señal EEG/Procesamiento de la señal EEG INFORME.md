@@ -41,6 +41,7 @@ Este informe se centra en el análisis de señales EEG, a partir de las señales
   <i>Figura 1. Ondas EEG [K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.]. </i></div>
 <br /> </p>
 </h5>
+   
 - Ondas cerebrales beta (β) (13-30 Hz):
 Estas ondas tienen la frecuencia más alta entre todas las ondas cerebrales. Se generan en los lóbulos frontales del cerebro y son ondas irregulares. Normalmente dominan los estados de conciencia durante la vigilia y ocurren cuando la atención se dirige hacia tareas cognitivas y otras actividades. Se producen cuando una persona está alerta, concentrada, atenta, enfocada y comprometida en la toma de decisiones o resolución de problemas. La ansiedad y la depresión también se han relacionado con las ondas beta, ya que pueden conducir a patrones de pensamiento repetitivos. Cuando alguien está participando en una conversación, hay un aumento en las ondas beta.
 
