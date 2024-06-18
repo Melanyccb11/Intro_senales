@@ -62,8 +62,14 @@ bliblibli
 
 </p>
 <a id = "metodo" style></a>
-<h2 style = "text-align: center;">Metodolodía</h2>
+<h2 style = "text-align: center;">Metodología</h2>
 
+Filtrado <br />
+Para las señales en EEG, al igual que en ECG, elegimos para los filtros IIR el Butterworth de cuarto orden, ya que este es comúnmente utilizado para el procesamiento de señales de EEG con el fin de filtrar y eliminar componentes no deseados . En las gráficas podemos observar que las señales se atenúan sin tener un delay, sin embargo hay un cambio en su amplitud [M. K. Hasan, R. Z. Rusho, T. M. Hossain, T. K. Ghosh, y M. Ahmad, «Design and simulation of cost effective wireless EEG acquisition system for patient monitoring», en 2014 International Conference on Informatics, Electronics & Vision (ICIEV), IEEE, 2014, pp. 1-5.]. <br />
+Preprocesamiento <br />
+El proceso de normalización de la señal EEG después del filtrado incluye detectar la entropía de muestra para identificar señales anormales, usando un umbral definido \( k \). Luego, se calcula la energía media de cada segmento de la señal, utilizando la norma L1, y se clasifica como anormal si supera un umbral \( e \). El valor máximo absoluto de los segmentos normales se usa como coeficiente de normalización \( m \), dividiendo toda la señal por \( m \) para normalizar. Finalmente, la señal normalizada se introduce en una red generativa adversaria (GAN) para entrenar el modelo y obtener datos EEG limpiados, asegurando un rango controlado y estable. [Y. An, H. K. Lam, and S. H. Ling, “Auto-Denoising for EEG Signals Using Generative Adversarial Network,” Sensors, vol. 22, no. 5, p. 1750, Feb. 2022, doi: 10.3390/s22051750]. Con esto aseguramos la homogeneidad de los datos y la mejoría de la precisión de nuestro análisis. <br />
+Wavelet
+Para aplicar la transformada wavelet a una señal EEG después de la normalización, primero se selecciona una función wavelet adecuada, como Daubechies, que se ajusta bien a las características de la señal EEG. Luego, se descompone la señal normalizada en coeficientes de detalle y aproximación a varios niveles de frecuencia utilizando la transformada wavelet discreta (DWT). Posteriormente, se aplica un umbral a los coeficientes wavelet para eliminar el ruido presente en la señal, usando técnicas como la umbralización suave o dura. Finalmente, se reconstruye la señal limpia a partir de los coeficientes umbralizados mediante la transformada wavelet inversa (IDWT), asegurando que las características esenciales de la señal se conservan mientras se elimina el ruido. Esta metodología permite una mejora significativa en la calidad de la señal EEG para análisis posteriores 
 
 
 
