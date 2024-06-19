@@ -38,7 +38,7 @@ Este informe se centra en el análisis de señales EEG, a partir de las señales
 <p align="center">
  <img width="500" height="300" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/EEG%20waves.png">
 <h5 align="center">
-  <i>Figura 1. Ondas EEG [K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.]. </i></div>
+  <i>Figura 1. Ondas EEG [3]. </i></div>
 <br /> </p>
 </h5>
    
@@ -52,7 +52,7 @@ Las ondas alfa son muy regulares y sincronizadas. Se generan en los lóbulos par
 Estas ondas se producen en el hipocampo del cerebro. Se generan cuando la mente está decepcionada. Durante el sueño REM, se producen las ondas theta. Justo antes de quedarnos dormidos y justo después de despertar, cuando la mente no está tan consciente como en el estado de vigilia normal, se generan las ondas theta. También se producen durante la meditación profunda y cuando estamos recordando recuerdos olvidados hace mucho tiempo.
 
 - Ondas cerebrales delta (δ) (2-4 Hz):
-Estas ondas se crean durante el estado de sueño profundo y tienen varios efectos terapéuticos. Ayudan a sanar perturbaciones. Cuando nuestro estado de ánimo es bajo o nos sentimos tristes, y después de un sueño profundo nos despertamos sintiéndonos energéticos, es porque el cerebro ha producido ondas delta K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.[].
+Estas ondas se crean durante el estado de sueño profundo y tienen varios efectos terapéuticos. Ayudan a sanar perturbaciones. Cuando nuestro estado de ánimo es bajo o nos sentimos tristes, y después de un sueño profundo nos despertamos sintiéndonos energéticos, es porque el cerebro ha producido ondas delta [3].
 
  
 
@@ -72,13 +72,13 @@ Estas ondas se crean durante el estado de sueño profundo y tienen varios efecto
 <h2 style = "text-align: center;">Metodología</h2>
 
 #### Filtrado <br />
-Para las señales en EEG, al igual que en ECG, elegimos para los filtros IIR el Butterworth de cuarto orden, ya que este es comúnmente utilizado para el procesamiento de señales de EEG con el fin de filtrar y eliminar componentes no deseados . En las gráficas podemos observar que las señales se atenúan sin tener un delay, sin embargo hay un cambio en su amplitud [M. K. Hasan, R. Z. Rusho, T. M. Hossain, T. K. Ghosh, y M. Ahmad, «Design and simulation of cost effective wireless EEG acquisition system for patient monitoring», en 2014 International Conference on Informatics, Electronics & Vision (ICIEV), IEEE, 2014, pp. 1-5.]. <br />
+Para las señales en EEG, al igual que en ECG, elegimos para los filtros IIR el Butterworth de cuarto orden, ya que este es comúnmente utilizado para el procesamiento de señales de EEG con el fin de filtrar y eliminar componentes no deseados. En las gráficas podemos observar que las señales se atenúan sin tener un delay, sin embargo hay un cambio en su amplitud [4]. <br />
 
 #### Preprocesamiento <br />
-El proceso de normalización de la señal EEG después del filtrado incluye detectar la entropía de muestra para identificar señales anormales, usando un umbral definido \( k \). Luego, se calcula la energía media de cada segmento de la señal, utilizando la norma L1, y se clasifica como anormal si supera un umbral \( e \). El valor máximo absoluto de los segmentos normales se usa como coeficiente de normalización \( m \), dividiendo toda la señal por \( m \) para normalizar. Finalmente, la señal normalizada se introduce en una red generativa adversaria (GAN) para entrenar el modelo y obtener datos EEG limpiados, asegurando un rango controlado y estable. [Y. An, H. K. Lam, and S. H. Ling, “Auto-Denoising for EEG Signals Using Generative Adversarial Network,” Sensors, vol. 22, no. 5, p. 1750, Feb. 2022, doi: 10.3390/s22051750]. Con esto aseguramos la homogeneidad de los datos y la mejoría de la precisión de nuestro análisis. <br />
+El proceso de normalización de la señal EEG después del filtrado incluye detectar la entropía de muestra para identificar señales anormales, usando un umbral definido \( k \). Luego, se calcula la energía media de cada segmento de la señal, utilizando la norma L1, y se clasifica como anormal si supera un umbral \( e \). El valor máximo absoluto de los segmentos normales se usa como coeficiente de normalización \( m \), dividiendo toda la señal por \( m \) para normalizar. Finalmente, la señal normalizada se introduce en una red generativa adversaria (GAN) para entrenar el modelo y obtener datos EEG limpiados, asegurando un rango controlado y estable [5]. Con esto aseguramos la homogeneidad de los datos y la mejoría de la precisión de nuestro análisis. <br />
 
 #### Wavelet
-Para aplicar la transformada wavelet a una señal EEG después de la normalización, primero se selecciona una función wavelet adecuada, como Daubechies, que se ajusta bien a las características de la señal EEG. Luego, se descompone la señal normalizada en coeficientes de detalle y aproximación a varios niveles de frecuencia utilizando la transformada wavelet discreta (DWT). Posteriormente, se aplica un umbral a los coeficientes wavelet para eliminar el ruido presente en la señal, usando técnicas como la umbralización suave o dura. Finalmente, se reconstruye la señal limpia a partir de los coeficientes umbralizados mediante la transformada wavelet inversa (IDWT), asegurando que las características esenciales de la señal se conservan mientras se elimina el ruido. Esta metodología permite una mejora significativa en la calidad de la señal EEG para análisis posteriore [I. H. Elshekhidris, M. B. MohamedAmien, and A. Fragoon, “WAVELET TRANSFORMS FOR EEG SIGNAL DENOISING AND DECOMPOSITION,” Int. J. Adv. SIGNAL IMAGE Sci., vol. 9, no. 2, Art. no. 2, Dec. 2023, doi: 10.29284/ijasis.9.2.2023.11-28.] [M. Jas et al., “MEG/EEG group study with MNE: recommendations, quality assessments and best practices.” Dec. 28, 2017. doi: 10.1101/240044.]
+Para aplicar la transformada wavelet a una señal EEG después de la normalización, primero se selecciona una función wavelet adecuada, como Daubechies, que se ajusta bien a las características de la señal EEG. Luego, se descompone la señal normalizada en coeficientes de detalle y aproximación a varios niveles de frecuencia utilizando la transformada wavelet discreta (DWT). Posteriormente, se aplica un umbral a los coeficientes wavelet para eliminar el ruido presente en la señal, usando técnicas como la umbralización suave o dura. Finalmente, se reconstruye la señal limpia a partir de los coeficientes umbralizados mediante la transformada wavelet inversa (IDWT), asegurando que las características esenciales de la señal se conservan mientras se elimina el ruido. Esta metodología permite una mejora significativa en la calidad de la señal EEG para análisis posteriore [6].
 
 </p>
 
@@ -138,14 +138,10 @@ Conjunto de gráficos se aplica una transformada wavelet discreta (DWT) a las se
 <h5 align="center">
   Figura 5: FFT de la señal normalizada obtenida en python: Extracción de características.[Elaboración propia]
 </h5>
-En la figura 5 se aprecia el conjunto de gráficos de la magnitud de la FFT de las señales EEG filtradas y normalizadas en decibelios (dB). Donde la mayor parte de la señal se concentra por debajo de los 30 Hz, como se esperaba. </p>
+En la figura 5 se aprecia el conjunto de gráficos de la magnitud de la FFT de las señales EEG filtradas y normalizadas en decibelios (dB). </p>
 
 <a id = "explic"></a>
 <h2 style = "text-align: center;">Resumen y Discusión</h2>
-
-### Discusión
-
-
 
 ### Resumen
 
@@ -153,12 +149,22 @@ Este laboratorio se centra en el procesamiento de señales EEG utilizando bases 
 
 El análisis incluyó la identificación de ondas cerebrales, evaluando su presencia y características en las señales filtradas y normalizadas. Los resultados demostraron una significativa reducción del ruido y una mayor claridad en los patrones de las ondas cerebrales. 
 
+### Discusión
+
+En la figura de la señal obtenida del data base, se observa una notable cantidad de ruido, con una amplitud que varía entre -1000 y 1000 en el eje Y, que representa la frecuencia en Hz. El eje X muestra el tiempo en milisegundos. Después de aplicar el filtrado pasa banda e IIR, se nota una significativa reducción de las frecuencias altas (mayores a 25 Hz) y bajas (menores a 0.5 Hz), lo que disminuye el ruido. Este proceso se continúa con la normalización utilizando la biblioteca MNE, destacándose así los eventos transitorios de mayor frecuencia.
+
+Finalmente, al realizar la FFT de la señal normalizada, los valores de amplitud obtenidos oscilan entre -100 y 0 dB. Sin embargo, sería esperable observar pequeñas amplitudes positivas comparables con las ondas beta, alfa, theta y delta, alineándose con las características típicas de las frecuencias cerebrales. Este proceso integral asegura una señal más limpia y precisa para el análisis, facilitando la identificación de las distintas ondas cerebrales [3],[4],[5],[6].
+
+
+
 
 <a id = "Bibliografía"></a>
 <h2 style = "text-align: center;">Bibliografía</h2>
 
-[1]	BLIBL </p>
-
-
-
+[1] A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography signal processing: A comprehensive review and analysis of methods and techniques,” Sensors, vol. 23, no. 14, p. 6434, 2023.</p>
+[2] Y. Zhao, F. He, and Y. Guo, “EEG Signal Processing Techniques and Applications,” Sensors, vol. 23, no. 22. MDPI, p. 9056, 2023.</p>
+[3] K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.</p>
+[4] M. K. Hasan, R. Z. Rusho, T. M. Hossain, T. K. Ghosh, y M. Ahmad, «Design and simulation of cost effective wireless EEG acquisition system for patient monitoring», en 2014 International Conference on Informatics, Electronics & Vision (ICIEV), IEEE, 2014, pp. 1-5. 
+[5] Y. An, H. K. Lam, and S. H. Ling, “Auto-Denoising for EEG Signals Using Generative Adversarial Network,” Sensors, vol. 22, no. 5, p. 1750, Feb. 2022, doi: 10.3390/s22051750
+[6] I. H. Elshekhidris, M. B. MohamedAmien, and A. Fragoon, “WAVELET TRANSFORMS FOR EEG SIGNAL DENOISING AND DECOMPOSITION,” Int. J. Adv. SIGNAL IMAGE Sci., vol. 9, no. 2, Art. no. 2, Dec. 2023, doi: 10.29284/ijasis.9.2.2023.11-28.] [M. Jas et al., “MEG/EEG group study with MNE: recommendations, quality assessments and best practices.” Dec. 28, 2017. doi: 10.1101/240044.
 
