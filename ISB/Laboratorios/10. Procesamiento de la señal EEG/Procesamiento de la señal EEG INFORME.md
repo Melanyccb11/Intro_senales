@@ -33,7 +33,7 @@
 El electroencefalograma (EEG) es una técnica neurofisiológica no invasiva que mide y cuantifica la actividad neuronal en diversas regiones del cerebro mediante la colocación de electrodos en el cuero cabelludo. Esta metodología permite a los investigadores capturar señales eléctricas generadas por el cerebro, proporcionando valiosa información sobre los mecanismos operativos del mismo. El procesamiento de estas señales enfrenta desafíos significativos debido a sus características inherentes. Estas señales son altamente susceptibles a la interferencia del ruido, lo que resulta en una baja relación señal-ruido. Además, su naturaleza no lineal y su falta de conformidad con una distribución normal las distinguen de las señales convencionales. Factores individuales como la edad, el estado psicológico y el entorno de prueba también pueden causar variaciones significativas en las señales EEG. Por lo tanto, es esencial desarrollar metodologías avanzadas para el análisis de señales y explorar técnicas de aprendizaje automático para entender mejor las señales EEG [1] . </p>
 En los últimos años, las técnicas de procesamiento de señales EEG han avanzado considerablemente. Métodos de preprocesamiento y extracción de características han sido propuestos para mejorar la calidad de las señales y permitir una mejor interpretación de los datos. La eliminación efectiva del ruido es crucial para extraer información significativa que refleje con precisión la actividad y los estados cerebrales [2] .  </p>
 
-Este informe se centra en el análisis de señales EEG, a partir de las señales que obtuvimos en laboratorios pasados y una base de datos fisiológico se hará realizará un filtrado, preprocesamiento,  extracción de características y su clasificación. </p>
+Este informe se centra en el análisis de señales EEG, a partir de las señales que obtuvimos en una base de datos fisiológico se hará realizará un filtrado, preprocesamiento,  extracción de características y su clasificación. </p>
 
 <p align="center">
  <img width="500" height="300" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/10.%20Procesamiento%20de%20la%20se%C3%B1al%20EEG/Im%C3%A1genes/EEG%20waves.png">
@@ -140,29 +140,18 @@ Conjunto de gráficos se aplica una transformada wavelet discreta (DWT) a las se
 </h5>
 En la figura 5 se aprecia el conjunto de gráficos de la magnitud de la FFT de las señales EEG filtradas y normalizadas en decibelios (dB). Donde la mayor parte de la señal se concentra por debajo de los 30 Hz, como se esperaba. </p>
 
-#### Parámetros importantes:
-1. RMSSD: 0.0373 s
-2. SDNN: 0.0373 s
-3. PNN50: 4.347 %
-
-
-#### Interpretación:
--bliblibli
-
-
-NO SE PARA CUANTOS CASOS VAMOS A HACER PERO DE SER ASI COPIAR Y PEGAR PLANTILLA DE ARRIBA
-
-
 <a id = "explic"></a>
 <h2 style = "text-align: center;">Resumen y Discusión</h2>
 
 ### Discusión
 
-BLIBLIBLI
+
 
 ### Resumen
 
-BLIBLIBIL
+Este laboratorio se centra en el procesamiento de señales EEG utilizando bases de datos de PhysioNet. El objetivo es mejorar la calidad de las señales mediante filtrado, preprocesamiento, y extracción de características relevantes. Se aplicó un filtro Butterworth de cuarto orden para eliminar el ruido de las señales originales y se normalizaron los datos utilizando la biblioteca MNE y una red generativa adversaria (GAN) para asegurar la homogeneidad de los datos. Posteriormente, se utilizó la transformada wavelet discreta (DWT) para descomponer y limpiar las señales, facilitando la captura de eventos transitorios.
+
+El análisis incluyó la identificación de ondas cerebrales, evaluando su presencia y características en las señales filtradas y normalizadas. Los resultados demostraron una significativa reducción del ruido y una mayor claridad en los patrones de las ondas cerebrales. 
 
 
 <a id = "Bibliografía"></a>
