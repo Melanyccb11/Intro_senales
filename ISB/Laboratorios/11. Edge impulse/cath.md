@@ -37,9 +37,8 @@ else:
           res.status_code, res.content)
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
-1. ECG (https://studio.edgeimpulse.com/public/431087/live)
 
-2. EEG (https://studio.edgeimpulse.com/public/431125/live)
-   
+1. ECG (https://studio.edgeimpulse.com/public/431087/live)
+2. EEG (https://studio.edgeimpulse.com/public/431125/live)  
 3. EMG (https://studio.edgeimpulse.com/public/431137/live)
 
