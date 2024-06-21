@@ -1,5 +1,6 @@
 <h1 style="text-align: center;">Laboratorio 11: Edge impulse (EI)</h1>
-Realizado por: Catherine Boggio
+Integrante: 
+- Catherine Boggio
 <a id = "Informe edge impulse" style></a>
 <h2 style = "text-align: center;">Objetivos</h2>
 - Crear un proyecto en EI por cada señal trabaja en clases. Es decir, deben tener 3 proyectos en EI para EMG, ECG, EEG. Las señales deben estar etiquetadas, ejemplo para ECG<br />
@@ -34,3 +35,6 @@ else:
     print('Failed to upload file(s) to Edge Impulse\n',
           res.status_code, res.content)
 ```
+<h2 style = "text-align: center;">Links de proyecto</h2>
+[nya]([https://www.ejemplo.com](https://studio.edgeimpulse.com/public/431087/live
+))
