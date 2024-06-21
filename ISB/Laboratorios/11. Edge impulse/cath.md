@@ -1,8 +1,9 @@
+<h1 style="text-align: center;">Laboratorio 11: Edge impulse (EI)</h1>
 <a id = "Informe edge impulse" style></a>
 <h2 style = "text-align: center;">Objetivos</h2>
-- Subir mediante un codigo en python las señales adquieridas a impulse edge <br />
+- Crear un proyecto en EI por cada señal trabaja en clases. Es decir, deben tener 3 proyectos en EI para EMG, ECG, EEG. Las señales deben estar etiquetadas, ejemplo para ECG<br />
 
-<h2 style = "text-align: center;">Objetivos</h2>
+<h2 style = "text-align: center;">Código en python</h2>
 
 ```python
 import requests
