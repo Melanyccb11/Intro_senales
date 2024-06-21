@@ -36,4 +36,4 @@ else:
           res.status_code, res.content)
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
-[nya](https://studio.edgeimpulse.com/public/431087/live)
+1. ECG (https://studio.edgeimpulse.com/public/431087/live)
