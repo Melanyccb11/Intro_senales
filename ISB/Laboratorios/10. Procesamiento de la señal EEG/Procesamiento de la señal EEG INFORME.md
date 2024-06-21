@@ -72,13 +72,18 @@ Estas ondas se crean durante el estado de sueño profundo y tienen varios efecto
 <h2 style = "text-align: center;">Metodología</h2>
 
 #### Filtrado <br />
-Para las señales en EEG, al igual que en ECG, elegimos para los filtros IIR el Butterworth de cuarto orden, ya que este es comúnmente utilizado para el procesamiento de señales de EEG con el fin de filtrar y eliminar componentes no deseados. En las gráficas podemos observar que las señales se atenúan sin tener un delay, sin embargo hay un cambio en su amplitud [4]. <br />
+   Utilizamos un filtro Butterworth pasabanda con frecuencias de corte de 3 Hz a 30 Hz y un orden de 2. Este tipo de filtro es efectivo para eliminar el ruido de baja y alta frecuencia que puede contaminar las señales EEG, mejorando así la calidad de las señales para análisis posteriores. El filtro Butterworth se selecciona por su respuesta de fase lineal y su capacidad para mantener la forma de la señal dentro del rango de frecuencias de interés[4][5]. <br />
 
-#### Preprocesamiento <br />
-El proceso de normalización de la señal EEG después del filtrado incluye detectar la entropía de muestra para identificar señales anormales, usando un umbral definido \( k \). Luego, se calcula la energía media de cada segmento de la señal, utilizando la norma L1, y se clasifica como anormal si supera un umbral \( e \). El valor máximo absoluto de los segmentos normales se usa como coeficiente de normalización \( m \), dividiendo toda la señal por \( m \) para normalizar. Finalmente, la señal normalizada se introduce en una red generativa adversaria (GAN) para entrenar el modelo y obtener datos EEG limpiados, asegurando un rango controlado y estable [5]. Con esto aseguramos la homogeneidad de los datos y la mejoría de la precisión de nuestro análisis. <br />
+#### Normalización de Señales <br />
+Después del filtrado, las señales EEG se normalizan utilizando el software MNE (MNE-Python). Este proceso implica crear una estructura de información con las características de las señales y aplicar un filtro adicional para asegurar que la señal esté en un rango controlado. La normalización ayuda a reducir la variabilidad entre diferentes señales y facilita la comparación y el análisis posterior [4]. <br />
 
 #### Wavelet
-Para aplicar la transformada wavelet a una señal EEG después de la normalización, primero se selecciona una función wavelet adecuada, como Daubechies, que se ajusta bien a las características de la señal EEG. Luego, se descompone la señal normalizada en coeficientes de detalle y aproximación a varios niveles de frecuencia utilizando la transformada wavelet discreta (DWT). Posteriormente, se aplica un umbral a los coeficientes wavelet para eliminar el ruido presente en la señal, usando técnicas como la umbralización suave o dura. Finalmente, se reconstruye la señal limpia a partir de los coeficientes umbralizados mediante la transformada wavelet inversa (IDWT), asegurando que las características esenciales de la señal se conservan mientras se elimina el ruido. Esta metodología permite una mejora significativa en la calidad de la señal EEG para análisis posteriore [6].
+La transformada wavelet discreta (DWT) se utiliza para descomponer las señales EEG en diferentes niveles de detalle utilizando la wavelet 'db4' de Daubechies. Este método es útil para analizar características en diferentes escalas de tiempo y frecuencia, permitiendo una extracción de características más detallada y precisa [4][5].
+Los coeficientes obtenidos de la transformada wavelet se normalizan calculando la media y la desviación estándar de cada conjunto de coeficientes. Este paso es crucial para asegurar que los coeficientes estén en un rango comparable y evitar que valores extremos afecten el análisis [5]. <br />
+
+#### Cálculo SNR (Signal to Noise Ratio)
+
+El SNR se calcula para evaluar la calidad de las señales preprocesadas. Se define como la relación entre la potencia de la señal útil y la potencia del ruido presente en la señal. Este cálculo es esencial para cuantificar la mejora en la calidad de las señales después del preprocesamiento [4][5].
 
 </p>
 
@@ -164,7 +169,6 @@ Finalmente, al realizar la FFT de la señal normalizada, los valores de amplitud
 [1] A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography signal processing: A comprehensive review and analysis of methods and techniques,” Sensors, vol. 23, no. 14, p. 6434, 2023.</p>
 [2] Y. Zhao, F. He, and Y. Guo, “EEG Signal Processing Techniques and Applications,” Sensors, vol. 23, no. 22. MDPI, p. 9056, 2023.</p>
 [3] K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.</p>
-[4] M. K. Hasan, R. Z. Rusho, T. M. Hossain, T. K. Ghosh, y M. Ahmad, «Design and simulation of cost effective wireless EEG acquisition system for patient monitoring», en 2014 International Conference on Informatics, Electronics & Vision (ICIEV), IEEE, 2014, pp. 1-5. </p>
-[5] Y. An, H. K. Lam, and S. H. Ling, “Auto-Denoising for EEG Signals Using Generative Adversarial Network,” Sensors, vol. 22, no. 5, p. 1750, Feb. 2022, doi: 10.3390/s22051750.</p>
-[6] I. H. Elshekhidris, M. B. MohamedAmien, and A. Fragoon, “WAVELET TRANSFORMS FOR EEG SIGNAL DENOISING AND DECOMPOSITION,” Int. J. Adv. SIGNAL IMAGE Sci., vol. 9, no. 2, Art. no. 2, Dec. 2023, doi: 10.29284/ijasis.9.2.2023.11-28.] [M. Jas et al., “MEG/EEG group study with MNE: recommendations, quality assessments and best practices.” Dec. 28, 2017. doi: 10.1101/240044.</p>
+[4] A. Keil et al., “Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography,” Psychophysiology, vol. 51, no. 1, pp. 1–21, 2014
+[5] N. Ahmadi, Y. Pei, and M. Pechenizkiy, “Detection of alcoholism based on EEG signals and functional brain network features extraction,” in 2017 IEEE 30th International Symposium on Computer-Based Medical Systems (CBMS), IEEE, 2017, pp. 179–184.
 
