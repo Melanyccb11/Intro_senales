@@ -42,3 +42,47 @@ else:
 2. EEG (https://studio.edgeimpulse.com/public/431125/live)  
 3. EMG (https://studio.edgeimpulse.com/public/431137/live)
 
+<h2 style = "text-align: center;">Imagenes</h2>
+
+### ECG
+ </p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/ecg_asistolia.png">
+<h5 align="center">
+  <i>Figura 1. Señal de ECG de un paciente con asistolia </i></div>
+<br /> </p>
+</h5>
+
+ </p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/ecg_RSN.png">
+<h5 align="center">
+  <i>Figura 2.Señal RSN en un ECG </i></div>
+<br /> </p>
+</h5>
+
+</p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/ecg_hiperventilacion.png">
+<h5 align="center">
+  <i>Figura 3. Señal hiperventilación en un ECG </i></div>
+<br /> </p>
+</h5>
+
+### EEG
+</p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/eeg_ejerciomate.png">
+<h5 align="center">
+  <i>Figura 4. Señal de EEG tras realizar un ejercicio matemático </i></div>
+<br /> </p>
+</h5>
+
+</p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/eeg_primeroojoscerrados.png">
+<h5 align="center">
+  <i>Figura 5. Señal EEG abriendo y cerrando los ojos </i></div>
+<br /> </p>
+</h5>
+### EMG
