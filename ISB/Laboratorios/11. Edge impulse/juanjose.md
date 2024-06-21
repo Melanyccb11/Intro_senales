@@ -9,16 +9,17 @@ Integrante:
 <h2 style = "text-align: center;">Código en python</h2>
 
 ```python
+# Install requests via: `pip3 install requests`
 import requests
 import os
 
-api_key = 'ei_bbee1514cc1ac4c96a9a578cbcc014cc2cd536dd8321d0b213550afe0b3993be'
+api_key = 'ei_bbfc3b5b7b596d3a3d2ca210cede07d0046857a3e252a359a2163bee06e505d2'
 # Add the files you want to upload to Edge Impulse
 files = [
-    '/content/asistolia.csv',
+    '/content/EMG/EMG_Reposo.csv'
 ]
 # # Replace the label with your own.
-label = 'ecg_asistolia'
+label = 'car'
 # Upload the file to Edge Impulse using the API, and print the response.
 res = requests.post(url='https://ingestion.edgeimpulse.com/api/training/files',
                     headers={
@@ -35,6 +36,9 @@ if (res.status_code == 200):
 else:
     print('Failed to upload file(s) to Edge Impulse\n',
           res.status_code, res.content)
+
+
+
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
