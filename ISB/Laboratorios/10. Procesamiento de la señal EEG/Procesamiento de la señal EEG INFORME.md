@@ -158,7 +158,7 @@ El análisis incluyó la identificación de ondas cerebrales, evaluando su prese
 
 En la figura de la señal obtenida del data base, se observa una notable cantidad de ruido, con una amplitud que varía entre -1000 y 1000 en el eje Y, que representa la frecuencia en Hz. El eje X muestra el tiempo en milisegundos. Después de aplicar el filtrado pasa banda e IIR, se nota una significativa reducción de las frecuencias altas (mayores a 25 Hz) y bajas (menores a 0.5 Hz), lo que disminuye el ruido. Este proceso se continúa con la normalización utilizando la biblioteca MNE, destacándose así los eventos transitorios de mayor frecuencia.
 
-Finalmente, al realizar la FFT de la señal normalizada, los valores de amplitud obtenidos oscilan entre -100 y 0 dB. Sin embargo, sería esperable observar pequeñas amplitudes positivas comparables con las ondas beta, alfa, theta y delta, alineándose con las características típicas de las frecuencias cerebrales. Este proceso integral asegura una señal más limpia y precisa para el análisis, facilitando la identificación de las distintas ondas cerebrales [3],[4],[5],[6].
+Finalmente, al realizar la FFT de la señal normalizada, los valores de amplitud obtenidos oscilan entre -100 y 0 dB. Sin embargo, sería esperable observar pequeñas amplitudes positivas comparables con las ondas beta, alfa, theta y delta, alineándose con las características típicas de las frecuencias cerebrales. Este proceso integral asegura una señal más limpia y precisa para el análisis, facilitando la identificación de las distintas ondas cerebrales[6],[7],[8],[9].
 
 
 
@@ -171,4 +171,10 @@ Finalmente, al realizar la FFT de la señal normalizada, los valores de amplitud
 [3] K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.</p>
 [4] A. Keil et al., “Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography,” Psychophysiology, vol. 51, no. 1, pp. 1–21, 2014</p>
 [5] N. Ahmadi, Y. Pei, and M. Pechenizkiy, “Detection of alcoholism based on EEG signals and functional brain network features extraction,” in 2017 IEEE 30th International Symposium on Computer-Based Medical Systems (CBMS), IEEE, 2017, pp. 179–184.</p>
+[6]Y. An, H. K. Lam, and S. H. Ling, “Auto-Denoising for EEG Signals Using Generative Adversarial Network,” Sensors, vol. 22, no. 5, p. 1750, Feb. 2022, doi: 10.3390/s22051750.</p>
+[7]	I. H. Elshekhidris, M. B. MohamedAmien, and A. Fragoon, “WAVELET TRANSFORMS FOR EEG SIGNAL DENOISING AND DECOMPOSITION,” Int. J. Adv. SIGNAL IMAGE Sci., vol. 9, no. 2, Art. no. 2, Dec. 2023, doi: 10.29284/ijasis.9.2.2023.11-28.</p>
+[8]	M. Jas et al., “MEG/EEG group study with MNE: recommendations, quality assessments and best practices.” Dec. 28, 2017. doi: 10.1101/240044.</p>
+
+[9] «BITalino (r)evolution Lab Guide»</p>
+
 
