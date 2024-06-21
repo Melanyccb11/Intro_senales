@@ -42,3 +42,4 @@ else:
 2. EEG (https://studio.edgeimpulse.com/public/431125/live)
    
 3. EMG (https://studio.edgeimpulse.com/public/431137/live)
+
