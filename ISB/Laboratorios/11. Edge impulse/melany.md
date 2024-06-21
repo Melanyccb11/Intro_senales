@@ -6,6 +6,8 @@
 LINK: https://studio.edgeimpulse.com/public/431175/live
 
 ## EMG
-LINK: 
+LINK: https://studio.edgeimpulse.com/public/431080/live
+
 ## EEG
-LINK: 
+LINK: https://studio.edgeimpulse.com/public/431175/live
+
