@@ -85,4 +85,21 @@ else:
   <i>Figura 5. Señal EEG abriendo y cerrando los ojos </i></div>
 <br /> </p>
 </h5>
+    
 ### EMG
+
+</p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/EMG_Oposici%C3%B3n.png">
+<h5 align="center">
+  <i>Figura 6. Señal EMG en haciendo un poco de fuerza </i></div>
+<br /> </p>
+</h5>
+
+</p>
+<p align="center">
+ <img width="250" height="150" src="https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20cath/EMG_resposo.png">
+<h5 align="center">
+  <i>Figura 7. Señal ENG en reposo </i></div>
+<br /> </p>
+</h5>
