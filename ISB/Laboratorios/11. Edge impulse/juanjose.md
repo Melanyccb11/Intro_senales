@@ -4,7 +4,7 @@ Integrante:
 - Juan Jose Sandoval
 <a id = "Informe edge impulse" style></a>
 <h2 style = "text-align: center;">Objetivos</h2>
-- Crear un proyecto en EI por cada señal trabaja en clases. Es decir, deben tener 3 proyectos en EI para EMG, ECG, EEG. Las señales deben estar etiquetadas, ejemplo para ECG<br />
+- Crear un proyecto en EI por cada señal trabaja en clases. Es decir, deben tener 3 proyectos en EI para EMG, ECG, EEG. Las señales deben estar etiquetadas, ejemplo para EMG<br />
 
 <h2 style = "text-align: center;">Código en python</h2>
 
