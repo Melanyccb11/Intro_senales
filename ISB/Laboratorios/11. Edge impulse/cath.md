@@ -1,5 +1,6 @@
 <h1 style="text-align: center;">Laboratorio 11: Edge impulse (EI)</h1>
 Integrante: 
+
 - Catherine Boggio
 <a id = "Informe edge impulse" style></a>
 <h2 style = "text-align: center;">Objetivos</h2>
