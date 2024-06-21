@@ -169,6 +169,6 @@ Finalmente, al realizar la FFT de la señal normalizada, los valores de amplitud
 [1] A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography signal processing: A comprehensive review and analysis of methods and techniques,” Sensors, vol. 23, no. 14, p. 6434, 2023.</p>
 [2] Y. Zhao, F. He, and Y. Guo, “EEG Signal Processing Techniques and Applications,” Sensors, vol. 23, no. 22. MDPI, p. 9056, 2023.</p>
 [3] K. N. Singh, S. S. Patra, S. Samantaray, S. Jena, J. K. Mantri, and C. Misra, “Automatic Sleep EEG Classification with Ensemble Learning Using Graph Modularity,” in *Biomedical Signal Processing for Healthcare Applications*, 1st ed., CRC Press, 2021, pp. 1-24. DOI: 10.1201/9781003147817-1.</p>
-[4] A. Keil et al., “Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography,” Psychophysiology, vol. 51, no. 1, pp. 1–21, 2014
-[5] N. Ahmadi, Y. Pei, and M. Pechenizkiy, “Detection of alcoholism based on EEG signals and functional brain network features extraction,” in 2017 IEEE 30th International Symposium on Computer-Based Medical Systems (CBMS), IEEE, 2017, pp. 179–184.
+[4] A. Keil et al., “Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography,” Psychophysiology, vol. 51, no. 1, pp. 1–21, 2014</p>
+[5] N. Ahmadi, Y. Pei, and M. Pechenizkiy, “Detection of alcoholism based on EEG signals and functional brain network features extraction,” in 2017 IEEE 30th International Symposium on Computer-Based Medical Systems (CBMS), IEEE, 2017, pp. 179–184.</p>
 
