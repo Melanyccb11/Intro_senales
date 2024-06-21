@@ -36,5 +36,4 @@ else:
           res.status_code, res.content)
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
-[nya]([https://www.ejemplo.com](https://studio.edgeimpulse.com/public/431087/live
-))
+[nya](https://studio.edgeimpulse.com/public/431087/live)
