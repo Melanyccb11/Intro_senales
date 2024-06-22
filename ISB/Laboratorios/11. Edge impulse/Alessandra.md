@@ -8,7 +8,7 @@ Integrante:
 - Subir cada señal mediante un código en python a EI.<br />
 
 <h2 style = "text-align: center;">Código en python</h2>
-1. [Codigo py](https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/texts_subidos.ipynb)</p>
+1. Codigo de py : https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/11.%20Edge%20impulse/imagenes%20ale/texts_subidos.ipynb</p>
 
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
