@@ -1,32 +1,31 @@
-<h1 style="text-align: center;">INTRODUCCIÓN A SEÑALES BIOMÉDICAS - GRUPO 2</h1>
+<h1 style="text-align: center;">Home Study Environments: Assessment of Posture and Muscle Fatigue Using Surface Electromyography in the Context of Virtual Education After the Pandemic</h1>
+<h1 style="text-align: center;">Entornos de Estudio en Casa: Evaluación de la Postura y Fatiga Muscular Mediante Electromiografía Superficial en el Contexto de la Educación Virtual Después de la Pandemia</h1>
 
 Bienvenidos al repositorio del **Grupo 2** del curso *Introducción a Señales Biomédicas*. Somos un equipo de estudiantes de Ingeniería Biomédica de las universidades UPCH y PUCP del semestre 2024-1. 
-<p style="text-align: center;">Se buscará desarrollar un sistema en el que se pueda adquirir y procesar señales de un electrocardiograma (ECG).</p>
-
-<h2 style="text-align: center;">Project: Analysis of EMG signals for ... - GRUPO 2</h2>
-<h2 style="text-align: center;">Proyecto igual pero en español ... - GRUPO 2</h2>
 
 
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
-1. [Introducción](#intro)
-2. [Problemáticca](#problem)
-3. [Tema del Proyecto](#Tema)
-4. [Propuesta de solución](#sol)
-5. [Bibliográfia](#biblio)
+1. [Resúmen](#intro)
+2. [Motivación](#problem)
+3. [Principales hallazgos](#Tema)
+4. [Equipo](#sol)
+5. [Referencia](#biblio)
 
 
 <a id = "intro"></a>  
-<h2 style = "text-align: center;">Introducción</h2>
+<h2 style = "text-align: center;">Resúmen</h2>
 blBLblBLbl
 
 <a id = "problem"></a>
-<h2 style = "text-align: center;">Problemáticca</h2>
+<h2 style = "text-align: center;">Motivación</h2>
 
 
 <a id = "sol"></a>
-<h2 style = "text-align: center;">Propuesta de solución]</h2>
-Proyecto_: "Analisis de señales electrocardiográficas (ECG)"
+<h2 style = "text-align: center;">Principales hallazgos</h2>
+
+<h2 style = "text-align: center;">Equipo</h2>
+
 
 
 
