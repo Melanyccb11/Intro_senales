@@ -35,12 +35,24 @@ A pesar de las políticas implementadas para mejorar la infraestructura tecnoló
 
 En los resultados, por medio de fotogametría, los datos indican que la postura en el sofá durante las clases virtuales no es adecuada debido a los valores obtenidos en el ángulo cráneo-vertebral. En la posición en sofá, la mediana del ángulo cráneo-vertebral es 57.75°, con una desviación estándar de 17.15°, significativamente mayor que en la silla (media de 51.9° y desviación estándar de 6.23°). En este caso la media no ha sido tomada en cuenta como relevante debido a la alta varianza. Estos resultados sugieren una mayor variabilidad y una alineación inadecuada de la columna cervical en el sofá. La cual muestra una peor alineación postural, con valores fuera del rango recomendado para todos los sujetos.
 
+Para el análisis estadístico, los valores obtenidos para los sujetos 1 y 2 indican una actividad muscular sostenida, lo que puede sugerir fatiga muscular. Estos hallazgos coinciden con estudios que muestran cómo las posturas no ergonómicas aumentan la actividad muscular y la fatiga. En contraste, los sujetos 2 y 4 muestran menor actividad muscular y menos fatiga, lo que podría reflejar una postura más eficiente [16]. En general, los parámetros extraídos de las señales EMG proporcionan una visión detallada de cómo las posturas adoptadas durante el estudio en casa pueden afectar la actividad muscular y la fatiga.
+
+En este estudio, se desarrolló un enfoque integral para analizar señales electromiográficas (EMG) utilizando técnicas estadísticas y de procesamiento de señales. Primero, se leyeron datos EMG desde archivos de texto (TXT), extrayendo y centrando la señal de interés. Cada señal se dividió en 10 segmentos para un análisis detallado, calculando el valor RMS (Root Mean Square) para evaluar la magnitud de la actividad muscular.
+<p align="center">
+ <img width="500" height="300" src="Software/Imagenes finales/Estadistica/TABLA_ESTADISTICA.png ">
+<h5 align="center">
+  <i>Tabla estadística con parámetros de cada señal. </i></div>
+<br /> </p> 
+ 
+Se generaron diagramas de caja y bigotes para visualizar la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.
+
 <p align="center">
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/DIAGRAMA_CAJA_BIGOTES.png">
 <h5 align="center">
-  <i>Figura 1. Ondas EEG [3]. </i></div>
+  <i>Diagrama de caja y bigotes de valores RMS de cada persona analizada </i></div>
 <br /> </p>
-  
+
+
 <h2 style = "text-align: center;">Links importantes</h2>
 
 - Sobre nosotros: https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/1.%20Sobre%20Nosotros/1.%20Sobre%20nosotros.md
