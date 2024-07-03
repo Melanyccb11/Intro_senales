@@ -42,7 +42,8 @@ En este estudio, se desarrolló un enfoque integral para analizar señales elect
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/TABLA_ESTADISTICA.png ">
 <h5 align="center">
   <i>Tabla estadística con parámetros de cada señal. </i></div>
- Se generaron diagramas de caja y bigotes para visualizar la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.</p> 
+<br /> 
+ - Se generaron diagramas de caja y bigotes para visualizar la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.</p> 
 
 <p align="center">
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/DIAGRAMA_CAJA_BIGOTES.png">
