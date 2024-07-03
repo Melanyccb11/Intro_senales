@@ -20,14 +20,18 @@ La pandemia de COVID-19 generó un cambio rápido hacia la educación virtual, a
 <a id = "problem"></a>
 <h2 style = "text-align: center;">Motivación</h2>
 
-### Motivación del Proyecto
-
 La motivación principal de este proyecto radica en la necesidad urgente de optimizar los entornos de estudio en casa para garantizar que los estudiantes puedan aprender de manera efectiva y saludable. Al proporcionar datos cuantitativos y análisis detallados sobre la relación entre la postura y la fatiga muscular, este proyecto no solo contribuirá a mejorar la salud física de los estudiantes, sino que también fomentará una mayor concientización sobre la importancia de ambientes de estudio ergonómicamente adecuados. En última instancia, se espera que estas mejoras conduzcan a un mejor rendimiento académico y una mayor calidad de vida para los estudiantes universitarios en el Perú.
 
 <a id = "sol"></a>
 <h2 style = "text-align: center;">Principales hallazgos</h2>
 
+La pandemia de COVID-19 obligó a las instituciones educativas a adoptar métodos de enseñanza virtuales, generando preocupaciones sobre la ergonomía y la postura de los estudiantes universitarios. La falta de ambientes ergonómicos en el hogar puede llevar a posturas deficientes y aumentar el riesgo de síntomas musculoesqueléticos [1]. 
 
+Durante la pandemia, muchos estudiantes que recibieron clases en línea desde casa estuvieron expuestos a un riesgo postural medio debido a entornos domésticos no ergonómicos, como sofás y camas [2]. El uso prolongado de dispositivos móviles y computadoras en posiciones inadecuadas ha incrementado problemas como dolor de cuello, espalda baja y hombros [3], [4], [5]. Estas condiciones afectan tanto el bienestar físico de los estudiantes como su rendimiento académico y calidad de vida [4].
+
+En Perú, un estudio en una universidad de Lima encontró que el 60.3% de los estudiantes experimentaron molestias musculoesqueléticas durante sus clases virtuales, reportando dolor en el cuello, espalda baja y hombros [6]. Otro estudio nacional reveló que el 20% de los estudiantes interrumpieron sus estudios durante el primer semestre de 2020 debido a la falta de acceso a servicios básicos y tecnología adecuada. 
+
+A pesar de las políticas implementadas para mejorar la infraestructura tecnológica y la capacitación docente, persisten desafíos relacionados con la equidad y el acceso a recursos adecuados [7]. La continuidad de la educación virtual subraya la necesidad de entornos de estudio óptimos en casa para garantizar un aprendizaje efectivo y saludable [8], [9].
 
 <h2 style = "text-align: center;">Equipo</h2>
 
@@ -37,5 +41,24 @@ La motivación principal de este proyecto radica en la necesidad urgente de opti
 <a id = "biblio"></a>
 <h2 style = "text-align: center;">Bibliográfia</h2>
 
+
+[1]	B. E. Vallespin y Y. Tri Prasetyo, «Posture Analysis of Students doing Online Class at Home during COVID-19 Pandemic», en 2020 IEEE 7th International Conference on Engineering Technologies and Applied Sciences (ICETAS), Kuala Lumpur, Malaysia: IEEE, dic. 2020, pp. 1-6. doi: 10.1109/ICETAS51660.2020.9484281.
+
+[2]	I. Akulwar-Tajane, M. Darvesh, M. Ghule, S. Deokule, y B. Deora, «Medical & Clinical Research», 2020.
+
+[3]	C. Symanzik et al., «Back and neck problems as well as disadvantageous ergonomic behavior patterns in university students: Concomitants of the pandemic?», Sports Orthop. Traumatol., vol. 39, n.o 1, pp. 50-57, mar. 2023, doi: 10.1016/j.orthtr.2022.11.011.
+
+[4]	I. H. Susilowati, L. M. Kurniawidjaja, S. Nugraha, S. M. Nasri, I. Pujiriani, y B. P. Hasiholan, «The prevalence of bad posture and musculoskeletal symptoms originating from the use of gadgets as an impact of the work from home program of the university community», Heliyon, vol. 8, n.o 10, p. e11059, oct. 2022, doi: 10.1016/j.heliyon.2022.e11059.
+
+[5]	P. Gorce y J. Jacquier-Bret, «Postural prevalence, time of day and spent time activities during smartphone weekday use among students: A survey to prevent musculoskeletal disorders», Heliyon, vol. 9, n.o 12, p. e22796, dic. 2023, doi: 10.1016/j.heliyon.2023.e22796.
+
+
+[6]	Y. F. Alamo Honorio et al., «Cambios en la ergonomía en tiempos de COVID-19 en estudiantes de una universidad Peruana», J Health Med Sci Print, pp. 67-74, 2021.
+
+[7]	M. F. Prada, G. Elacqua, C. Méndez, R. Novella, K. L. Vargas, y D. Vásquez, «El impacto de la crisis del COVID-19 en estudiantes vulnerables de educación superior: el caso de Perú», IDB Publ., mar. 2022, doi: 10.18235/0004149.
+
+[8]	S. LR, «COVID-19 y educación: ¿cómo afectó la pandemia en el aprendizaje de los alumnos? | clases virtuales | clases presenciales | cuarta ola | Minedu | Sociedad | La República». Accedido: 17 de mayo de 2024. [En línea]. Disponible en: https://larepublica.pe/sociedad/2022/07/22/covid-19-y-educacion-como-afecto-la-pandemia-en-el-aprendizaje-de-los-alumnos-clases-virtuales-clases-presenciales-cuarta-ola-minedu
+
+[9]	E. Maza-Córdova, «Una mirada a la educación virtual en el Perú en tiempos de la COVID-19», Rev. Científica Episteme Tekne, vol. 2, n.o 1, Art. n.o 1, ene. 2023, doi: 10.51252/rceyt.v2i1.459.
 
 
