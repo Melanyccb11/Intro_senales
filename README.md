@@ -20,9 +20,14 @@ La pandemia de COVID-19 generó un cambio rápido hacia la educación virtual, a
 <a id = "problem"></a>
 <h2 style = "text-align: center;">Motivación</h2>
 
+### Motivación del Proyecto
+
+La motivación principal de este proyecto radica en la necesidad urgente de optimizar los entornos de estudio en casa para garantizar que los estudiantes puedan aprender de manera efectiva y saludable. Al proporcionar datos cuantitativos y análisis detallados sobre la relación entre la postura y la fatiga muscular, este proyecto no solo contribuirá a mejorar la salud física de los estudiantes, sino que también fomentará una mayor concientización sobre la importancia de ambientes de estudio ergonómicamente adecuados. En última instancia, se espera que estas mejoras conduzcan a un mejor rendimiento académico y una mayor calidad de vida para los estudiantes universitarios en el Perú.
 
 <a id = "sol"></a>
 <h2 style = "text-align: center;">Principales hallazgos</h2>
+
+
 
 <h2 style = "text-align: center;">Equipo</h2>
 
