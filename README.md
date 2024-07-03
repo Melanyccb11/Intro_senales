@@ -33,6 +33,8 @@ En Perú, un estudio en una universidad de Lima encontró que el 60.3% de los es
 
 A pesar de las políticas implementadas para mejorar la infraestructura tecnológica y la capacitación docente, persisten desafíos relacionados con la equidad y el acceso a recursos adecuados [7]. La continuidad de la educación virtual subraya la necesidad de entornos de estudio óptimos en casa para garantizar un aprendizaje efectivo y saludable [8], [9].
 
+En los resultados, por medio de fotogametría, los datos indican que la postura en el sofá durante las clases virtuales no es adecuada debido a los valores obtenidos en el ángulo cráneo-vertebral. En la posición en sofá, la mediana del ángulo cráneo-vertebral es 57.75°, con una desviación estándar de 17.15°, significativamente mayor que en la silla (media de 51.9° y desviación estándar de 6.23°). En este caso la media no ha sido tomada en cuenta como relevante debido a la alta varianza. Estos resultados sugieren una mayor variabilidad y una alineación inadecuada de la columna cervical en el sofá. La cual muestra una peor alineación postural, con valores fuera del rango recomendado para todos los sujetos.
+
 <h2 style = "text-align: center;">Equipo</h2>
 
 
