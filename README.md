@@ -9,7 +9,7 @@ Bienvenidos al repositorio del **Grupo 2** del curso *Introducción a Señales B
 1. [Resúmen](#intro)
 2. [Motivación](#problem)
 3. [Principales hallazgos](#Tema)
-4. [Equipo](#sol)
+4. [Links importantes](#sol)
 5. [Referencia](#biblio)
 
 
