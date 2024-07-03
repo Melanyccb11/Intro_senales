@@ -35,6 +35,12 @@ A pesar de las políticas implementadas para mejorar la infraestructura tecnoló
 
 En los resultados, por medio de fotogametría, los datos indican que la postura en el sofá durante las clases virtuales no es adecuada debido a los valores obtenidos en el ángulo cráneo-vertebral. En la posición en sofá, la mediana del ángulo cráneo-vertebral es 57.75°, con una desviación estándar de 17.15°, significativamente mayor que en la silla (media de 51.9° y desviación estándar de 6.23°). En este caso la media no ha sido tomada en cuenta como relevante debido a la alta varianza. Estos resultados sugieren una mayor variabilidad y una alineación inadecuada de la columna cervical en el sofá. La cual muestra una peor alineación postural, con valores fuera del rango recomendado para todos los sujetos.
 
+<p align="center">
+ <img width="500" height="300" src="Software/Imagenes finales/Estadistica/DIAGRAMA_CAJA_BIGOTES.png">
+<h5 align="center">
+  <i>Figura 1. Ondas EEG [3]. </i></div>
+<br /> </p>
+  
 <h2 style = "text-align: center;">Links importantes</h2>
 
 - Sobre nosotros: https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/1.%20Sobre%20Nosotros/1.%20Sobre%20nosotros.md
