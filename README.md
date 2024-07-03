@@ -54,8 +54,9 @@ En este estudio, se desarrolló un enfoque integral para analizar señales elect
 
 <h2 style = "text-align: center;">Links importantes</h2>
 
+- Paper: https://paperswithcode.com/paper/home-study-environments-assessment-of-posture
 - Sobre nosotros: https://github.com/Melanyccb11/Intro_senales/blob/main/ISB/Laboratorios/1.%20Sobre%20Nosotros/1.%20Sobre%20nosotros.md
-- Codigo: 
+- Codigo: https://github.com/Melanyccb11/Intro_senales/tree/main/Software/Codigo%20py
 
 
 <a id = "biblio"></a>
