@@ -61,7 +61,7 @@ Según los resultados de la Tabla 2, el valor F de 191.628421 es muy alto, indic
 En la Tabla 3, no hubo diferencias significativas entre los sujetos 1 y 2 (p-tukey = 0.101). Hubo diferencias significativas entre los sujetos 1 y 3 (p-tukey = 0.000), con el sujeto 3 mostrando mayores valores RMS, y entre los sujetos 1 y 4 (p-tukey = 0.000), con el sujeto 4 mostrando valores RMS más altos. Entre los sujetos 2 y 3 (p-tukey = 0.000) y los sujetos 2 y 4 (p-tukey = 0.000), también se observaron diferencias significativas, con el sujeto 4 mostrando los mayores valores RMS.
 
 <p align="center">
- <img width="500" height="300" src="Software/Imagenes finales/Estadistica/Grupos.png">
+ <img width="800" height="300" src="Software/Imagenes finales/Estadistica/Grupos.png">
 <h5 align="center">
   <i>Tabla 3. Estadística con parámetros de cada señal.</i></div>
 <br /> </p>
