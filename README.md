@@ -41,7 +41,8 @@ Por parte de EMG, el análisis estadístico, los valores obtenidos para los suje
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/TABLA_ESTADISTICA.png ">
 <h5 align="center">
   <i>Tabla 1. Estadística con parámetros de cada señal. </i></div>
-<br /> </p>
+
+ 
   - Se generaron diagramas de caja y bigotes como se puede visualizar en la Figura 1 con el fin de ver la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.
 
 <p align="center">
@@ -49,19 +50,21 @@ Por parte de EMG, el análisis estadístico, los valores obtenidos para los suje
 <h5 align="center">
   <i> Figura 1. Diagrama de caja y bigotes de valores RMS de cada persona analizada. </i></div><br /> 
 
+
 Según los resultados de la Tabla 2, el valor F de 191.628421 es muy alto, indicando una variabilidad significativa entre los grupos. El valor-p de 3.488760e-22, mucho menor que 0.05, muestra que las diferencias entre grupos son estadísticamente significativas, permitiendo rechazar la hipótesis nula. El tamaño del efecto (η² parcial) es 0.941069, sugiriendo que la mayor parte de la variabilidad en los valores RMS se debe a diferencias entre los sujetos, indicando una fuerte influencia del factor "Sujeto".
 
 <p align="center">
  <img width="700" height="200" src="Software/Imagenes finales/Estadistica/ANOVA.png">
 <h5 align="center">
-  <i>Tabla 2. Estadística con parámetros de cada señal.</i></div><br /> 
+  <i>Tabla 2. Estadística con parámetros de cada señal.</i></div>
+
 
 En la Tabla 3, no hubo diferencias significativas entre los sujetos 1 y 2 (p-tukey = 0.101). Hubo diferencias significativas entre los sujetos 1 y 3 (p-tukey = 0.000), con el sujeto 3 mostrando mayores valores RMS, y entre los sujetos 1 y 4 (p-tukey = 0.000), con el sujeto 4 mostrando valores RMS más altos. Entre los sujetos 2 y 3 (p-tukey = 0.000) y los sujetos 2 y 4 (p-tukey = 0.000), también se observaron diferencias significativas, con el sujeto 4 mostrando los mayores valores RMS.
 
 <p align="center">
  <img width="800" height="300" src="Software/Imagenes finales/Estadistica/Grupos.png">
 <h5 align="center">
-  <i>Tabla 3. Estadística con parámetros de cada señal.</i></div><br /> </p>
+  <i>Tabla 3. Estadística con parámetros de cada señal.</i></div>
 
 <h2 style = "text-align: center;">Links importantes</h2>
 
