@@ -43,12 +43,12 @@ Por parte de EMG, el análisis estadístico, los valores obtenidos para los suje
   <i>Tabla 1. Estadística con parámetros de cada señal. </i></div>
 
  
-  - Se generaron diagramas de caja y bigotes como se puede visualizar en la Figura 1 con el fin de ver la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.
+Se generaron diagramas de caja y bigotes como se puede visualizar en la Figura 1 con el fin de ver la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.
 
 <p align="center">
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/DIAGRAMA_CAJA_BIGOTES.png">
 <h5 align="center">
-  <i> Figura 1. Diagrama de caja y bigotes de valores RMS de cada persona analizada. </i></div><br /> 
+  <i> Figura 1. Diagrama de caja y bigotes de valores RMS de cada persona analizada. </i></div>
 
 
 Según los resultados de la Tabla 2, el valor F de 191.628421 es muy alto, indicando una variabilidad significativa entre los grupos. El valor-p de 3.488760e-22, mucho menor que 0.05, muestra que las diferencias entre grupos son estadísticamente significativas, permitiendo rechazar la hipótesis nula. El tamaño del efecto (η² parcial) es 0.941069, sugiriendo que la mayor parte de la variabilidad en los valores RMS se debe a diferencias entre los sujetos, indicando una fuerte influencia del factor "Sujeto".
