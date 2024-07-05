@@ -35,22 +35,36 @@ A pesar de las políticas implementadas para mejorar la infraestructura tecnoló
 
 En los resultados, por medio de fotogametría, los datos indican que la postura en el sofá durante las clases virtuales no es adecuada debido a los valores obtenidos en el ángulo cráneo-vertebral. En la posición en sofá, la mediana del ángulo cráneo-vertebral es 57.75°, con una desviación estándar de 17.15°, significativamente mayor que en la silla (media de 51.9° y desviación estándar de 6.23°). En este caso la media no ha sido tomada en cuenta como relevante debido a la alta varianza. Estos resultados sugieren una mayor variabilidad y una alineación inadecuada de la columna cervical en el sofá. La cual muestra una peor alineación postural, con valores fuera del rango recomendado para todos los sujetos.
 
-Para el análisis estadístico, los valores obtenidos para los sujetos 1 y 2 indican una actividad muscular sostenida, lo que puede sugerir fatiga muscular. Estos hallazgos coinciden con estudios que muestran cómo las posturas no ergonómicas aumentan la actividad muscular y la fatiga. En contraste, los sujetos 2 y 4 muestran menor actividad muscular y menos fatiga, lo que podría reflejar una postura más eficiente [16]. En general, los parámetros extraídos de las señales EMG proporcionan una visión detallada de cómo las posturas adoptadas durante el estudio en casa pueden afectar la actividad muscular y la fatiga.
+Por parte de EMG, el análisis estadístico, los valores obtenidos para los sujetos 1 y 2 indican una actividad muscular sostenida, lo que puede sugerir fatiga muscular. Estos hallazgos coinciden con estudios que muestran cómo las posturas no ergonómicas aumentan la actividad muscular y la fatiga. En contraste, los sujetos 2 y 4 muestran menor actividad muscular y menos fatiga, lo que podría reflejar una postura más eficiente [10]. En general, los parámetros extraídos de las señales EMG proporcionan una visión detallada de cómo las posturas adoptadas durante el estudio en casa pueden afectar la actividad muscular y la fatiga.
 
-En este estudio, se desarrolló un enfoque integral para analizar señales electromiográficas (EMG) utilizando técnicas estadísticas y de procesamiento de señales. Primero, se leyeron datos EMG desde archivos de texto (TXT), extrayendo y centrando la señal de interés. Cada señal se dividió en 10 segmentos para un análisis detallado, calculando el valor RMS (Root Mean Square) para evaluar la magnitud de la actividad muscular.
 <p align="center">
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/TABLA_ESTADISTICA.png ">
 <h5 align="center">
-  <i>Tabla estadística con parámetros de cada señal. </i></div>
+  <i>Tabla 1. Estadística con parámetros de cada señal. </i></div>
 <br /> </p>
-  - Se generaron diagramas de caja y bigotes para visualizar la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.
+  - Se generaron diagramas de caja y bigotes como se puede visualizar en la Figura 1 con el fin de ver la distribución de los valores RMS y se calcularon estadísticas descriptivas, incluyendo media, desviación estándar, valores mínimos y máximos, percentiles y coeficiente de variación. Además, se realizó la prueba de Shapiro-Wilk para verificar la normalidad de los valores RMS.
 
 <p align="center">
  <img width="500" height="300" src="Software/Imagenes finales/Estadistica/DIAGRAMA_CAJA_BIGOTES.png">
 <h5 align="center">
-  <i>Diagrama de caja y bigotes de valores RMS de cada persona analizada </i></div>
+  <i> Figura 1. Diagrama de caja y bigotes de valores RMS de cada persona analizada. </i></div>
 <br /> </p>
 
+Según los resultados de la Tabla 2, el valor F de 191.628421 es muy alto, indicando una variabilidad significativa entre los grupos. El valor-p de 3.488760e-22, mucho menor que 0.05, muestra que las diferencias entre grupos son estadísticamente significativas, permitiendo rechazar la hipótesis nula. El tamaño del efecto (η² parcial) es 0.941069, sugiriendo que la mayor parte de la variabilidad en los valores RMS se debe a diferencias entre los sujetos, indicando una fuerte influencia del factor "Sujeto".
+
+<p align="center">
+ <img width="500" height="300" src="Software/Imagenes finales/Estadistica/ANOVA.png">
+<h5 align="center">
+  <i>Tabla 2. Estadística con parámetros de cada señal.</i></div>
+<br /> </p>
+
+En la Tabla 3, no hubo diferencias significativas entre los sujetos 1 y 2 (p-tukey = 0.101). Hubo diferencias significativas entre los sujetos 1 y 3 (p-tukey = 0.000), con el sujeto 3 mostrando mayores valores RMS, y entre los sujetos 1 y 4 (p-tukey = 0.000), con el sujeto 4 mostrando valores RMS más altos. Entre los sujetos 2 y 3 (p-tukey = 0.000) y los sujetos 2 y 4 (p-tukey = 0.000), también se observaron diferencias significativas, con el sujeto 4 mostrando los mayores valores RMS.
+
+<p align="center">
+ <img width="500" height="300" src="Software/Imagenes finales/Estadistica/Grupos.png">
+<h5 align="center">
+  <i>Tabla 3. Estadística con parámetros de cada señal.</i></div>
+<br /> </p>
 
 <h2 style = "text-align: center;">Links importantes</h2>
 
@@ -81,5 +95,7 @@ En este estudio, se desarrolló un enfoque integral para analizar señales elect
 [8]	S. LR, «COVID-19 y educación: ¿cómo afectó la pandemia en el aprendizaje de los alumnos? | clases virtuales | clases presenciales | cuarta ola | Minedu | Sociedad | La República». Accedido: 17 de mayo de 2024. [En línea]. Disponible en: https://larepublica.pe/sociedad/2022/07/22/covid-19-y-educacion-como-afecto-la-pandemia-en-el-aprendizaje-de-los-alumnos-clases-virtuales-clases-presenciales-cuarta-ola-minedu
 
 [9]	E. Maza-Córdova, «Una mirada a la educación virtual en el Perú en tiempos de la COVID-19», Rev. Científica Episteme Tekne, vol. 2, n.o 1, Art. n.o 1, ene. 2023, doi: 10.51252/rceyt.v2i1.459.
+
+[10] P. Intolo, B. Shalokhon, G. Wongwech, P. Wisiasut, S. Nanthavanij, and D. G. Baxter, “Analysis of neck and shoulder postures, and muscle activities relative to perceived pain during laptop computer use at a low-height table, sofa and bed,” Work, vol. 63, no. 3, pp. 361–367, 2019
 
 
